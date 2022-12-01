@@ -60,3 +60,4 @@ console.log(
 totalSpent += payment;
 
 console.log('Общая сумма потреченого в магазине ${totalSpent} ');
+
