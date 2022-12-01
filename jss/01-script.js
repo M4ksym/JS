@@ -33,6 +33,30 @@
 //     message = 'Вам перезвонит наш Урод';
 // }
 // console.log(message);
-for (let i = o; i < 5; i += 1) {
-  console.log(i);
+
+let totalSpent = 0;
+let payment = 450;
+let discount = 0;
+
+if (totalSpent >= 100 && totalSpent < 1000) {
+  console.log('Бронзовый партнёр,скидка 2%');
+  discount = 0.02;
+} else if (totalSpent >= 1000 && totalSpent < 3000) {
+  console.log('Серебряный партёр ,скидка 7%');
+  discount = 0.07;
+} else if (totalSpent >= 3001) {
+  console.log('Золотой партёр ,скидка 10%');
+  discount = 0.1;
+} else {
+  console.log('Не партнёр, скидка 0%');
 }
+
+payment = payment - payment * discount;
+
+console.log(
+  'Оформляем заказ на сумму ${payment} со скидкой ${discount * 100}%',
+);
+
+totalSpent += payment;
+
+console.log('Общая сумма потреченого в магазине ${totalSpent} ');
