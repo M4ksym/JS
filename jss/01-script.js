@@ -1,10 +1,38 @@
-//
-//
-//
+// const stars = 0;
+// let price;
 
-// let salary = 1300.1653;
-// salary = Number(salary.toFixed(2));
+// switch (stars) {
+//   case 1:
+//   case 2:
+//     price = 20;
+//     break;
+//   case 3:
+//   case 4:
+//     price = 220;
+//     break;
 
-// console.log(salary);
+//   default:
+//     console.log('Иди в Жопу ');
+// }
 
-console.log(5 < 8);
+// console.log(price);
+// const option = 5;
+// let message = '';
+
+// switch (option) {
+//   case 1:
+//     message = 'Вы Можете Забрать Товар из Урны';
+//     break;
+//   case 2:
+//     message = 'Курьер Доставит Вам Товар';
+//     break;
+//   case 3:
+//     message = 'Вам отправят товар почтой через ад';
+//     break;
+//   default:
+//     message = 'Вам перезвонит наш Урод';
+// }
+// console.log(message);
+for (let i = o; i < 5; i += 1) {
+  console.log(i);
+}
