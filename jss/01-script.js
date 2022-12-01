@@ -1,4 +1,4 @@
-// const stars = 0;
+// const stars = 3;
 // let price;
 
 // switch (stars) {
@@ -34,30 +34,29 @@
 // }
 // console.log(message);
 
-let totalSpent = 0;
-let payment = 450;
-let discount = 0;
+// let totalSpent = 3250;
+// let payment = 437;
+// let discount = 0;
 
-if (totalSpent >= 100 && totalSpent < 1000) {
-  console.log('Бронзовый партнёр,скидка 2%');
-  discount = 0.02;
-} else if (totalSpent >= 1000 && totalSpent < 3000) {
-  console.log('Серебряный партёр ,скидка 7%');
-  discount = 0.07;
-} else if (totalSpent >= 3001) {
-  console.log('Золотой партёр ,скидка 10%');
-  discount = 0.1;
-} else {
-  console.log('Не партнёр, скидка 0%');
-}
+// if (totalSpent >= 100 && totalSpent < 1000) {
+//   console.log('Бронзовый партнёр,скидка 2%');
+//   discount = 0.02;
+// } else if (totalSpent >= 1000 && totalSpent < 3000) {
+//   console.log('Серебряный партёр ,скидка 7%');
+//   discount = 0.07;
+// } else if (totalSpent >= 3001) {
+//   console.log('Золотой партёр ,скидка 12%');
+//   discount = 0.12;
+// } else {
+//   console.log('Не партнёр, скидка 0%');
+// }
 
-payment = payment - payment * discount;
+// payment = payment - payment * discount;
 
-console.log(
-  'Оформляем заказ на сумму ${payment} со скидкой ${discount * 100}%',
-);
+// console.log(
+//   `Оформляем заказ на сумму ${payment} со скидкой ${discount * 100}%`,
+// );
 
-totalSpent += payment;
+// totalSpent += payment;
 
-console.log('Общая сумма потреченого в магазине ${totalSpent} ');
-
+// console.log(`Общая сумма потреченого в магазине ${totalSpent} `);
