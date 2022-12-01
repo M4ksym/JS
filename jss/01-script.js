@@ -15,6 +15,10 @@
 //     console.log('Иди в Жопу ');
 // }
 
+// !!!
+
+// !!!
+
 // console.log(price);
 // const option = 5;
 // let message = '';
@@ -34,6 +38,10 @@
 // }
 // console.log(message);
 
+// 111
+
+// !!!
+
 // let totalSpent = 3250;
 // let payment = 437;
 // let discount = 0;
@@ -51,7 +59,7 @@
 //   console.log('Не партнёр, скидка 0%');
 // }
 
-// payment = payment - payment * discount;
+// payment -= payment * discount;
 
 // console.log(
 //   `Оформляем заказ на сумму ${payment} со скидкой ${discount * 100}%`,
@@ -60,3 +68,18 @@
 // totalSpent += payment;
 
 // console.log(`Общая сумма потреченого в магазине ${totalSpent} `);
+
+const bthAdd = document.querySelector('button[data-add]');
+const valueInput = document.querySelector('input[data-value]');
+
+let total = 0;
+
+bthAdd.addEventListener('click', () => {
+  console.log('click');
+
+  const value = Number(valueInput.value);
+  console.log(value);
+  total += value;
+  console.log('total:', total);
+  valueInput.value = '';
+});
