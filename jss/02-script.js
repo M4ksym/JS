@@ -23,8 +23,8 @@
 // }
 // console.log('total', total);
 
-const numbers = [1, 2, 6, 4, 7, 90, 11, 54, 31, 77, 12, 84, 80, 7, 99, 14];
-let total = 0;
+// const numbers = [1, 2, 6, 4, 7, 90, 11, 54, 31, 77, 12, 84, 80, 7, 99, 14];
+// let total = 0;
 
 // for (let i = 0; i < numbers.length; i += 1) {
 //   console.log(numbers[i]);
@@ -35,13 +35,27 @@ let total = 0;
 //   total += numbers[i];
 // }
 
-for (const number of numbers) {
-  console.log(number);
+// for (const number of numbers) {
+//   console.log(number);
 
-  if (number % 2 === 0) {
-    console.log('Четное');
-  }
-  total += number;
-}
+//   if (number % 2 === 0) {
+//     console.log('Четное');
+//   }
+//   total += number;
+// }
 
-console.log('Total:', total);
+// console.log('Total:', total);
+
+// let productName = 'Droid';
+// productName = 'Repair droid';
+// let pricePerItem = 2000;
+// pricePerItem = 1500;
+
+// console.log(productName, pricePerItem);
+
+// let productName = 'Repair droid';
+
+// let pricePerItem = 1500;
+
+// console.log(pricePerItem);
+// console.log(productName);
