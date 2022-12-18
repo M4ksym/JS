@@ -69,17 +69,17 @@
 
 // console.log(`Общая сумма потреченого в магазине ${totalSpent} `);
 
-const bthAdd = document.querySelector('button[data-add]');
-const valueInput = document.querySelector('input[data-value]');
+// const bthAdd = document.querySelector('button[data-add]');
+// const valueInput = document.querySelector('input[data-value]');
 
-let total = 0;
+// let total = 0;
 
-bthAdd.addEventListener('click', () => {
-  console.log('click');
+// bthAdd.addEventListener('click', () => {
+//   console.log('click');
 
-  const value = Number(valueInput.value);
-  console.log(value);
-  total += value;
-  console.log('total:', total);
-  valueInput.value = '';
-});
+//   const value = Number(valueInput.value);
+//   console.log(value);
+//   total += value;
+//   console.log('total:', total);
+//   valueInput.value = '';
+// });
