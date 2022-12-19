@@ -7,7 +7,9 @@
 
 // console.table(a);
 // console.table(b);
-
+// !!!!!!
+// !!!!!!
+// !!!!!!
 // const friends = ['Mango', 'Kiwi', 'Poly', 'Ajax'];
 
 // for (const friend of friends) {
@@ -22,7 +24,9 @@
 //   total += cart[i];
 // }
 // console.log('total', total);
-
+// !!!!
+// !!!!!!
+// !!!!!!!
 // const numbers = [1, 2, 6, 4, 7, 90, 11, 54, 31, 77, 12, 84, 80, 7, 99, 14];
 // let total = 0;
 
@@ -43,19 +47,71 @@
 //   }
 //   total += number;
 // }
+// !!!!!!!!!
+// !!!!!!!!!
+// !!!!!!!!
+// const logins = [
+//   'Naruto',
+//   'Soro',
+//   'Jack',
+//   'Ludmila',
+//   'Doogee',
+//   'Ezio',
+//   'Thor',
+//   'Me',
+//   'Bona',
+//   'Jack',
+//   'Bono',
+//   'Poly',
+//   'Mango',
+// ];
+// const loginToFind = 'Bono';
+// let message = `Пользователь ${loginToFind} не найден.`;
 
-// console.log('Total:', total);
+// for (let i = 0; i < logins.length; i += 1) {
+//   const login = logins[i];
 
-// let productName = 'Droid';
-// productName = 'Repair droid';
-// let pricePerItem = 2000;
-// pricePerItem = 1500;
+//   if (login === loginToFind) {
+//     message = `Пользователь ${loginToFind} найден`;
+//     break;
+//   }
+// }
+// console.log(message);
 
-// console.log(productName, pricePerItem);
+// !!
 
-// let productName = 'Repair droid';
+// for (const login of logins) {
+//   console.log(`Login:`, login);
+//   console.log(`${login} === ${loginToFind}: `, login === loginToFind);
 
-// let pricePerItem = 1500;
+//   if (login === loginToFind) {
+//     message = `Пользователь ${loginToFind} найден`;
+//     break;
+//   }
+// }
 
-// console.log(pricePerItem);
-// console.log(productName);
+// console.log(message);
+
+// !!!
+// console.log(logins.includes('Bona'));
+// !!!
+// !!!
+// const message = logins.includes(loginToFind)
+//   ? `Пользователь ${loginToFind} найден.`
+//   : `Пользователь ${loginToFind} не найден. `;
+
+// console.log(message);
+
+// !!!!!!!!!
+// !!!!!!!!!
+// /!!!!!!!!!!!
+
+const numbers = [43, 50, 33, 69, 2, 11, 9];
+let smallestNumber = numbers[0];
+
+for (const number of numbers) {
+  if (numbers < smallestNumber) {
+    smallestNumber = number;
+  }
+}
+console.log('smallestNumber: ', smallestNumber);
