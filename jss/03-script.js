@@ -106,12 +106,26 @@
 // !!!!!!!!!
 // /!!!!!!!!!!!
 
-const numbers = [43, 50, 33, 69, 2, 11, 9];
-let smallestNumber = numbers[0];
+// const numbers = [43, 50, 33, 69, 2, 11, 9];
+// let smallestNumber = numbers[0];
 
-for (const number of numbers) {
-  if (numbers < smallestNumber) {
-    smallestNumber = number;
-  }
+// for (const number of numbers) {
+//   if (numbers < smallestNumber) {
+//     smallestNumber = number;
+//   }
+// }
+// console.log('smallestNumber: ', smallestNumber);
+// !!!!!
+// !!!!!!!
+// !!!!!!!!
+// !!!!!!!!
+
+const friends = ['Mango', 'Kiwi', 'Ajax'];
+let string = '';
+
+for (const friend of friends) {
+  string += friends + ',';
 }
-console.log('smallestNumber: ', smallestNumber);
+string = string.slice(0, string.length - 1);
+
+console.log(string);
