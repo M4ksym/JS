@@ -22,15 +22,68 @@
 
 // !!!!!
 // !!!!!
-const fnA = function () {
-  console.log('Выполняется функция А');
+// const fnA = function () {
+//   console.log('Выполняется функция А');
+// };
+// const fnB = function () {
+//   console.log('Выполняется функция B');
+// };
+// const fnC = function () {
+//   console.log('Выполняется функция C');
+// };
+// fnA();
+// fnB();
+// fnC();
+// !!!!
+// !!!
+// !!!!
+// const cart = [8, 7, 50, 434, 11, 45, 66, 93];
+// let total = 0;
+
+// for (const value of cart) {
+//   total += value;
+// }
+
+// console.log('Total:', total);
+// !!!!!!
+// !!!!!!
+// !!!!!!
+// const calculateTotalPrice = function (items) {
+//   console.log('item внутри функции:', items);
+//   let total = 0;
+//   for (const item of items) {
+//     total += item;
+//   }
+//   return total;
+// };
+// console.log(calculateTotalPrice([1, 2, 3]));
+// console.log(calculateTotalPrice([10, 20, 30]));
+// console.log(calculateTotalPrice([100, 200, 300]));
+// !!!!!!!/
+// !!!!!!!
+// const logItems = function (items) {
+//   for (const item of items) {
+//     console.log(item);
+//   }
+// };
+// logItems([2, 3, 6, 77, 9]);
+// logItems(['Poly', 'Ajax', 'Jax', 'Max']);
+// logItems(['Наушники', 'Часы', 'Очки']);
+// !!!!!!!
+// !!!!!!
+// !!!!!!
+const logins = ['Naruto', 'Soro', 'Bono'];
+// const loginToFind = 'Bono';
+
+// const message = logins.includes(loginToFind)
+//   ? `Пользователь ${loginToFind} найден.`
+//   : `Пользователь ${loginToFind} не найден. `;
+
+// console.log(message);
+const findLogin = function (allLogins, loginToFind) {
+  console.log(allLogins);
 };
-const fnB = function () {
-  console.log('Выполняется функция B');
-};
-const fnC = function () {
-  console.log('Выполняется функция C');
-};
-fnA();
-fnB();
-fnC();
+console.log(findLogin(logins, 'Naruto'));
+console.log(findLogin(logins, 'Soro'));
+console.log(findLogin(logins, 'Bono'));
+1.03;
