@@ -123,9 +123,83 @@
 // !!!!!!!
 // !!!!!!!
 
-const feedbeck = {
-  good: 5,
-  neutral: 10,
-  bad: 99,
+// const feedback = {
+//   good: 5,
+//   neutral: 10,
+//   bad: 99,
+// };
+// let totalFeedback = 0;
+
+// const keys = Object.keys(feedback);
+
+// console.log(keys);
+// for (const key of keys) {
+//   console.log(key);
+//   console.log(feedback[key]);
+
+//   totalFeedback += feedback[key];
+
+//   console.log('totalFeedback', totalFeedback);
+// }
+
+// !!!!!!
+// !!!!!!
+// const feedback = {
+//   good: 5,
+//   neutral: 10,
+//   bad: 9,
+// };
+// let totalFeedback = 0;
+
+// const values = Object.values(feedback);
+// console.log(values);
+
+// for (const value of values) {
+//   console.log(value);
+
+//   totalFeedback += value;
+// }
+// console.log('totalFeedback', totalFeedback);
+
+// !!!!!!
+// !!!!!!
+// !!!!!!
+// const friends = [
+//   { name: 'Mango', online: false },
+//   { name: 'Kiwi', online: true },
+//   { name: 'Poly', online: true },
+//   { name: 'Ajax', online: false },
+// ];
+
+// console.table(friends);
+
+// for (const friend of friends) {
+//   console.log(friend);
+
+//   friend.newprop = 555;
+// }
+
+// console.table(friends);
+// !!!!!
+// !!!!!
+
+const friends = [
+  { name: 'Mango', online: false },
+  { name: 'Kiwi', online: true },
+  { name: 'Poly', online: true },
+  { name: 'Ajax', online: false },
+];
+
+console.table(friends);
+
+const findFriendByName = function (allFriends, name) {
+  for (const friend of allFriends) {
+    console.log(friend);
+    console.log(friend.name);
+
+    if (friend.name === name) {
+      return 'Да,Вот Он';
+    }
+  }
 };
-let totalFeedback = 0;
+console.log(findFriendByName(friends, 'Poly'));
