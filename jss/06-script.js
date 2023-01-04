@@ -123,7 +123,7 @@ const profile = {
   name: 'Jacques Gluke',
   tag: 'jgluke',
   location: 'Jamaica',
-  avatar: /images /gim.jpg,
+  avatar: './images / img.jpg',
   stats: {
     followers: 5603,
     views: 4827,
