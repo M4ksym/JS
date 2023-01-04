@@ -123,12 +123,17 @@ const profile = {
   name: 'Jacques Gluke',
   tag: 'jgluke',
   location: 'Jamaica',
-  avatar: './images / img.jpg',
+  avatar: './jss/images/img.jpg',
   stats: {
     followers: 5603,
     views: 4827,
     likes: 1308,
   },
 };
+const { name, tag, location, avatar, stats } = profile;
 
-console.log(profile);
+const { followers, views, likes } = stats;
+
+console.log(name, tag, location, avatar, followers, views, likes);
+
+1.06;
