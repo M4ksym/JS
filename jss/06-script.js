@@ -1,21 +1,23 @@
-// const cart = {
-//   items: [],
-//   getItems() {},
-//   add(product) {},
-//   remove(productName) {},
-//   clear() {},
-//   countTotalPrice() {},
-//   increaseQuantity(productName) {},
-//   decreaseQuatity(productName) {},
-// };
-// console.table(cart.getItems());
+const cart = {
+  items: [],
+  getItems() {
+    return this.items;
+  },
+  add(product) {},
+  remove(productName) {},
+  clear() {},
+  countTotalPrice() {},
+  increaseQuantity(productName) {},
+  decreaseQuatity(productName) {},
+};
+console.table(cart.getItems());
 
-// cart.add({ name: 'apple', price: 50 });
-// cart.add({ name: 'lemon', price: 70 });
-// cart.add({ name: 'pie', price: 90 });
-// cart.add({ name: 'watermelon', price: 95 });
+cart.add({ name: 'apple', price: 50 });
+cart.add({ name: 'lemon', price: 70 });
+cart.add({ name: 'pie', price: 95 });
+cart.add({ name: 'watermelon', price: 95 });
 
-// console.table(cart.getItems());
+console.table(cart.getItems());
 
 // !!!!!!!!
 // !!!!!!!!!
@@ -43,8 +45,8 @@
 
 // !!!!!!
 
-// const temps = [10, 23, 35, 40, 59, 800];
-// console.log(Math.max(...temps));
+// const temps = [10, 23, 35, 40, 59, 61];
+// console.log(Math.min(...temps));
 
 // !!!!!!!
 // !!!!!!
@@ -91,18 +93,40 @@
 
 // const rgb = [255, 50, 50];
 
+// const [red, green, blue] = rgb;
+
+// console.log(red, green, blue);
+
+// !!!!!!
+// !!!!!!
+
 // const authors = {
 //   kiwi: 4,
 //   poly: 6,
 //   ajax: 9,
 //   bob: 5,
 // };
+// ИЛИ ИЛИ ИЛИ ИЛИ ИЛИ ИЛИ
+
+// const entries = Object.entries(authors);
+
+// for (const entry of entries) {
+//   const name = entry[0];
+//   const rating = entry[1];
+
+//   console.log(name, rating);
+// }
+//ИЛИ ИЛИ ИЛИ ИЛИ ИЛИ ИЛИ
+
+// const entries = Object.entries(authors);
+
+// for (const [name, rating] of entries) {
+//   console.log(name, rating);
+// }
 
 // !!!!!!!!
 // !!!!!!!!
 // !!!!!!!!
-
-// Dest
 
 // const playlist = {
 //   name: 'My playlits',
@@ -119,21 +143,69 @@
 // !!!!!!!!
 // !!!!!!!
 
-const profile = {
-  name: 'Jacques Gluke',
-  tag: 'jgluke',
-  location: 'Jamaica',
-  avatar: './jss/images/img.jpg',
-  stats: {
-    followers: 5603,
-    views: 4827,
-    likes: 1308,
-  },
-};
-const { name, tag, location, avatar, stats } = profile;
+// const profile = {
+//   name: 'Jacques Gluke',
+//   tag: 'jgluke',
+//   location: 'Jamaica',
+//   avatar: './jss/images/img.jpg',
+//   stats: {
+//     followers: 5603,
+//     views: 4827,
+//     likes: 1308,
+//   },
+// };
+// const { name, tag, location, avatar, stats } = profile;
 
-const { followers, views, likes } = stats;
+// const { followers, views, likes } = stats;
 
-console.log(name, tag, location, avatar, followers, views, likes);
+// console.log(name, tag, location, avatar, followers, views, likes);
 
-1.06;
+// !!!!!!!!
+// !!!!!!!
+
+// const profile = {
+//   name: 'Jacques Gluke',
+//   tag: 'jgluke',
+//   location: 'Jamaica',
+//   avatar: './jss/images/img.jpg',
+//   stats: {
+//     followers: 5603,
+//     views: 4827,
+//     likes: 1308,
+//   },
+// };
+// const { name, tag, location, ...restProps } = profile;
+
+// console.log(name, tag, location);
+// console.log(restProps);
+
+// !!!!!
+// 1!!!!!!
+// !!!!!!!
+
+// const showProfileInfo = function ({
+//   name,
+//   tag,
+//   location,
+//   avatar,
+//   stats: { followers, views, likes },
+// }) {
+//   console.log(name, tag, location, avatar, followers, views, likes);
+// };
+
+// const profile = {
+//   name: 'Jacques Gluke',
+//   tag: 'jgluke',
+//   location: 'Jamaica',
+//   avatar: './jss/images/img.jpg',
+//   stats: {
+//     followers: 5603,
+//     views: 4827,
+//     likes: 1308,
+//   },
+// };
+// showProfileInfo(profile);
+
+// !!!!!
+// !!!!!!
+// !!!!!!!!
