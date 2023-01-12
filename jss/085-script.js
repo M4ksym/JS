@@ -122,16 +122,29 @@
 // !!!!!!!!
 // !!!!!!!
 
-function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee) {
-  // Change code below this line
-  const totalPrice = orderedQuantity * pricePerDroid + deliveryFee;
-  const message = `You ordered droids worth ${totalPrice} credits. Delivery ( ${deliveryFee} delivery fee credits) is included in total price.`;
-  // Change code above this line
-  return message;
-}
+// function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee) {
+//   // Change code below this line
 
-makeOrderMessage(2, 100, 50);
-makeOrderMessage(4, 300, 100);
-makeOrderMessage(10, 70, 200);
+//   const message = `You ordered droids worth ${
+//     orderedQuantity * pricePerDroid + deliveryFee
+//   } credits. Delivery (${deliveryFee} credits) is included in total price.`;
+//   // Change code above this line
+//   console.log(message);
+//   return message;
+// }
 
-('You ordered droids worth <total price> credits. Delivery (<delivery fee> credits) is included in total price.');
+// makeOrderMessage(2, 100, 50);
+// makeOrderMessage(4, 300, 100);
+// makeOrderMessage(10, 70, 200);
+
+// !!!!!!!
+// !!!!!!!
+// !!!!!!!
+
+// function isAdult(age) {
+//   const passed = age >= 18;
+// }
+
+// !!!!!!
+// !!!!!!
+// 1!!!!!!
