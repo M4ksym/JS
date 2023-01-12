@@ -148,3 +148,27 @@
 // !!!!!!
 // !!!!!!
 // 1!!!!!!
+
+// function isValidPassword(password) {
+//   const SAVED_PASSWORD = 'jqueryismyjam';
+
+//   const isMatch = password === 'jqueryismyjam';
+
+//   return isMatch;
+// }
+
+// !!!!!!!
+// !!!!!!!
+// !!!!!!
+
+// function checkAge(age) {
+//   let message;
+
+//   if (age >= 18) {
+//     message = 'You are an adult';
+//   } else {
+//     message = 'You are a minor';
+//   }
+
+//   return message;
+// }
