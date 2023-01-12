@@ -172,3 +172,66 @@
 
 //   return message;
 // }
+
+// function checkStorage(available, ordered) {
+//   let message;
+//   // Change code below this line
+//   if (ordered > available) {
+//     message = 'Not enough goods in stock!';
+//   } else {
+//     message = 'Order is processed, our manager will contact you.';
+//   }
+//   // Change code above this line
+
+//   return message;
+// }
+
+// !!!!!!!!
+// !!!!!!!!!
+// !!!!!!!!
+
+// let a = 5;
+// let b = 10;
+// let c = 15;
+// let d = 20;
+
+// // Change code below this line
+// a += 2;
+// b -= 4;
+// c *= 3;
+// d /= 10;
+
+// !!!!!
+// !!!!!
+// !!!!!
+
+function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
+  const totalPrice = pricePerDroid * orderedQuantity;
+
+  if (totalPrice > customerCredits) {
+    message = 'Insufficient funds!';
+  } else {
+    message =
+      'You ordered ${orderedQuantity} droids, you have ${customerCredits} credits left';
+  }
+
+  return message;
+}
+// Aaaaaaaaaaaa
+// aaaaaaaaaaa
+// aAAAAAAaaaa
+function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
+  let message;
+  // Change code below this line
+  const totalPrice = pricePerDroid * orderedQuantity;
+  customerCredits = customerCredits - totalPrice;
+  if (totalPrice > customerCredits) {
+    message = 'Insufficient funds!';
+  } else {
+    message =
+      'You ordered ${orderedQuantity} droids, you have ${customerCredits} credits left';
+  }
+
+  // Change code above this line
+  return message;
+}
