@@ -95,29 +95,29 @@
 // !!!!!!
 // !!!!!
 
-const filter = function (array, test) {
-  const filterArray = [];
+// const filter = function (array, test) {
+//   const filterArray = [];
 
-  for (const el of array) {
-    console.log(el);
-    const passet = test(el);
+//   for (const el of array) {
+//     console.log(el);
+//     const passet = test(el);
 
-    if (passet) {
-      filterArray.push(el);
-    }
-  }
+//     if (passet) {
+//       filterArray.push(el);
+//     }
+//   }
 
-  return filterArray;
-};
+//   return filterArray;
+// };
 
-const callback1 = function (value) {
-  return value <= 3;
-};
+// const callback1 = function (value) {
+//   return value <= 3;
+// };
 
-const r1 = filter([1, 2, 3, 4, 5], callback1);
-console.log(r1);
+// const r1 = filter([1, 2, 3, 4, 5], callback1);
+// console.log(r1);
 
-const r2 = filter([1, 2, 3, 4, 5, 6, 7, 8, 9], function (value) {
-  return value >= 5;
-});
-console.log(r2);
+// const r2 = filter([1, 2, 3, 4, 5, 6, 7, 8, 9], function (value) {
+//   return value >= 5;
+// });
+// console.log(r2);
