@@ -206,36 +206,21 @@
 // !!!!!
 
 // function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
-//   const totalPrice = pricePerDroid * orderedQuantity;
-
-//   if (totalPrice > customerCredits) {
-//     message = 'Insufficient funds!';
-//   } else {
-//     message =
-//       'You ordered ${orderedQuantity} droids, you have ${customerCredits} credits left';
-//   }
-
-//   return message;
-// }
-// Aaaaaaaaaaaa
-// aaaaaaaaaaa
-// aAAAAAAaaaa
-// function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 //   let message;
-//   // Change code below this line
+
 //   const totalPrice = pricePerDroid * orderedQuantity;
-//   customerCredits = customerCredits - totalPrice;
-//   if (totalPrice > customerCredits) {
+//   if (customerCredits < totalPrice) {
 //     message = 'Insufficient funds!';
 //   } else {
-//     message =
-//       'You ordered ${orderedQuantity} droids, you have ${customerCredits} credits left';
+//     message = `You ordered ${orderedQuantity} droids, you have ${
+//       customerCredits - totalPrice
+//     } credits left`;
 //   }
 
 //   // Change code above this line
 //   return message;
 // }
 
-// !!!!!!!
+// !!!!!!!!
+// !!!!!!!!!!!!
 // !!!!!!
-// 1!!!!!!!
