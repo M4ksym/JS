@@ -274,8 +274,48 @@
 // !!!!!!
 // !!!!!!!
 
-function checkIfCanAccessContent(subType) {
-  const canAccessContent = subType === pro || subType === vip; // Change this line
+// function checkIfCanAccessContent(subType) {
+//   const canAccessContent = subType === 'pro' || subType === 'vip'; // Change this line
 
-  return canAccessContent;
-}
+//   return canAccessContent;
+// }
+
+// !!!!!!
+// !!!!!!!
+// !!!!!!!!
+
+// function isNumberNotInRange(start, end, number) {
+//   const isInRange = number >= start && number <= end;
+//   const isNotInRange = !isInRange; // Change this line
+
+//   return isNotInRange;
+// }
+
+// !!!!!!!
+// !!!!!!!!
+// !!!!!!!
+
+// function getDiscount(totalSpent) {
+//   const BASE_DISCOUNT = 0;
+//   const BRONZE_DISCOUNT = 0.02;
+//   const SILVER_DISCOUNT = 0.05;
+//   const GOLD_DISCOUNT = 0.1;
+//   let discount;
+//   // Change code below this line
+//   if (totalSpent >= 50000) {
+//     discount = 0.1;
+//   } else if (totalSpent >= 20000 && totalSpent < 50000) {
+//     discount = 0.05;
+//   } else if (totalSpent >= 5000 && totalSpent < 20000) {
+//     discount = 0.02;
+//   } else if (totalSpent <= 5000) {
+//     discount = 0;
+//   }
+
+//   // Change code above this line
+//   return discount;
+// }
+
+// !!!!!!!
+// !!!!!!!!
+// !!!!!!!!
