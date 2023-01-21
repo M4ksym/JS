@@ -198,8 +198,75 @@
 // 1!!!!!!!
 
 //          округлятор
-const floatingPoint = 3.45678;
-const someInt = Math.round(floatingPoint);
-comst withDecimals
 
-console.log(floatingPoint);
+// const number1 = 3.56783;
+// const number2 = 4.123456787;
+// console.log(Number(number1.toFixed(3)));
+// console.log(Number(number2.toFixed(5)));
+
+//              ИЛИ
+
+// const rounder = function (number, places) {
+//   return Number(number.toFixed(places));
+// };
+
+// console.log(rounder(3.456789, 2));
+// console.log(rounder(54.456789, 4));
+// console.log(rounder(6.456789, 6));
+
+//              ИЛИ
+
+// const rounder = function (places) {
+//   return function (number) {
+//     return Number(number.toFixed(places));
+//   };
+// };
+
+// const rounder2 = rounder(2);
+// const rounder3 = rounder(3);
+
+// console.log(rounder2(3.456789, 2));
+// console.log(rounder3(54.456789, 3));
+// console.log(rounder2(6.456789, 2));
+
+// !!!!!!
+// !!!!!!
+
+//          ПРИВАТНОЕ ЗАМЫКАНИЕ (НАПРИМЕР ЗАРПЛАТА----Salary)
+
+// const salaryManagerFactory = function (employeeName, baseSalary = 1) {
+//   let salary = baseSalary;
+
+//   return {
+//     raise(amount) {
+//       salary += amount;
+//     },
+//     lower(amount) {
+//       salary -= amount;
+//     },
+//     current() {
+//       return `Текущая зарплата${employeeName}- ${salary}`;
+//     },
+//   };
+// };
+
+// const salaryManager = salaryManagerFactory('Poly', 200);
+// console.log(salaryManager.current());
+
+//              СТРЕЛОЧНЫЕ ФУНКЦИИ
+
+const add = function (a, b, c, d) {
+  console.log(a, b, c, d);
+  return a + b * c + d;
+};
+
+console.log(add(7, 12, 40, 8));
+
+//         ИЛИ
+
+const addArrow = (a, b, c, d) => {
+  console.log(a, b, c, d);
+  return a + b * c + d;
+};
+
+console.log(add(7, 12, 40, 8));
