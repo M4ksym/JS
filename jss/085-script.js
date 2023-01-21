@@ -319,3 +319,20 @@
 // !!!!!!!
 // !!!!!!!!
 // !!!!!!!!
+
+// function checkStorage(available, ordered) {
+//   // Change code below this line
+//   let message;
+//   message =
+//     ordered > available
+//       ? 'Not enough goods in stock!'
+//       : 'The order is accepted, our manager will contact you';
+
+//   // Change code above this line
+//   return message;
+// }
+
+
+// !!!!!!!!!!
+// 1!!!!!!!!
+// !!!!!!!!!!!
