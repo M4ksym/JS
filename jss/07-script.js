@@ -145,7 +145,7 @@
 // !!!!!!
 // !!!!!!
 
-//              замыкание
+//                        замыкание
 
 // const fnA = function (parameter) {
 //   const innerVariable = 'значение внутринней функции fnA';
@@ -181,7 +181,7 @@
 // ++++++
 // ++++++
 
-//             замыкание
+//                    замыкание
 
 // const makeSheff = function (name) {
 //   const makeDish = function (dish) {
@@ -197,7 +197,7 @@
 // !!!!!!!
 // 1!!!!!!!
 
-//          округлятор
+//                     округлятор
 
 // const number1 = 3.56783;
 // const number2 = 4.123456787;
@@ -255,18 +255,89 @@
 
 //              СТРЕЛОЧНЫЕ ФУНКЦИИ
 
-const add = function (a, b, c, d) {
-  console.log(a, b, c, d);
-  return a + b * c + d;
-};
+// const add = function (a, b, c, d) {
+//   console.log(a, b, c, d);
+//   return a + b * c + d;
+// };
 
-console.log(add(7, 12, 40, 8));
+// console.log(add(7, 12, 40, 8));
+
+// ++++++++++++
 
 //         ИЛИ
 
-const addArrow = (a, b, c, d) => {
-  console.log(a, b, c, d);
-  return a + b * c + d;
-};
+// ++++++++++++
 
-console.log(add(7, 12, 40, 8));
+// const addArrow = (a, b, c, d) => {
+//   console.log(a, b, c, d);
+//   return a + b * c + d;
+// };
+
+// console.log(add(7, 12, 40, 8));
+
+// ++++++++++
+
+//             НЕ ЯВНЫЙ ВОЗВРАТ
+
+// const addSplit = (a, b, c, d) => a + b + c + d;
+
+// !!!!!!!!!
+// !!!!!!!!!
+
+//          СТРЕЛОЧНАЯ ФУНКЦИЯ ВМЕСТО СЛОВА ФУНКЦИЯ (  =>  или  function   )
+
+// const fnA = function () {
+//   return { a: 5 };
+// };
+
+// console.log(fnA());
+
+// //        ИЛИ
+
+// const arrowFnA = () => ({ arrowA: 5 });
+
+// console.log(arrowFnA());
+
+// !!!!!!!!
+// !!!!!!!!
+// !!!!!!!
+
+//                  пример стрелочной функции
+
+// const filter = (array, test) => {
+//   const filterArray = [];
+
+//   for (const el of array) {
+//     console.log(el);
+//     const passed = test(el);
+
+//     if (passed) {
+//       filterArray.push(el);
+//     }
+//   }
+
+//   return filterArray;
+// };
+
+// // const callback1 = value => value >= 3;
+
+// const r1 = filter([1, 2, 3, 4, 5], value => value >= 31);
+// console.log(r1);
+
+// // const callback2 = value => value <= 5;
+
+// const r2 = filter([1, 2, 3, 4, 5, 6, 7, 8, 9], value => value <= 5);
+// console.log(r2);
+
+// const fruits = [
+//   { name: 'apples', quantity: 200, isFresh: true },
+//   { name: 'orange', quantity: 80, isFresh: false },
+//   { name: 'lemon', quantity: 220, isFresh: true },
+//   { name: 'grapes', quantity: 150, isFresh: false },
+//   { name: 'bananas', quantity: 100, isFresh: true },
+// ];
+
+// // const getFruitsWithQuantity = fruit => fruit.quantity >= 120;
+
+// const r3 = filter(fruits, fruit => fruit.quantity >= 120);
+// console.log(r3);
