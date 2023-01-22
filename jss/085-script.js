@@ -404,53 +404,51 @@
 // !!!!!!!!
 // 1!!!!!!!!
 
-// ))))))))))))))))))))))))))))))
-//   switch (
-//     country // Change this line
-//   ) {
-//     case 'professional': // Change this line
-//       price = 20; // Change this line
+// ))))))))))))))))))))))))))))))(((()))))))(((((((((())))))))))
+//   switch (country) {
+//     case 'professional':
+//       price = 20;
 //       break;
 
-//     case 'organization': // Change this line
-//       price = 50; // Change this line
+//     case 'organization':
+//       price = 50;
 //       break;
 
-//     case 'starter': // Change this line
-//       price = 0; // Change this line
+//     case 'starter':
+//       price = 0;
 //       break;
 //   }
 
-// (((((((((((((((((((())))))))))))))))))))
+// (((((((((((((((((((((((((((((((())))))))))))))))))))))))))))))))
 
-function getShippingCost(country) {
-  let message;
-  // Change code below this line
-  switch (country) {
-    case China:
-      price = 100;
-      message = 'Shipping to ${China} will cost ${100} credits';
-      break;
+// !!!!!!!!!
 
-    case Chile:
-      price = 250;
-      message = 'Shipping to Chile will cost 250 credits';
-      break;
+// function getShippingCost(country) {
+//   let message;
 
-    case Australia:
-      price = 170;
-      message = 'Shipping to Australia will cost 170 credits';
-      break;
+//   switch (country) {
+//     case 'China':
+//       message = 'Shipping to China will cost 100 credits';
+//       break;
 
-    case Jamaica:
-      price = 120;
-      message = 'Shipping to Jamaica will cost 120 credits';
-      break;
+//     case 'Chile':
+//       message = 'Shipping to Chile will cost 250 credits';
+//       break;
 
-    default:
-      message = 'Sorry, there is no delivery to your country';
-  }
+//     case 'Australia':
+//       message = 'Shipping to Australia will cost 170 credits';
+//       break;
 
-  // Change code above this line
-  return message;
-}
+//     case 'Jamaica':
+//       message = 'Shipping to Jamaica will cost 120 credits';
+//       break;
+
+//     default:
+//       message = 'Sorry, there is no delivery to your country';
+//   }
+//   return message;
+// }
+
+// !!!!!!!
+// !!!!!!!
+// !!!!!!!!!!
