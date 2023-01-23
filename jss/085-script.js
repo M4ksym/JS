@@ -452,3 +452,35 @@
 // !!!!!!!
 // !!!!!!!
 // !!!!!!!!!!
+
+// function getNameLength(name) {
+//   const message = `Name ${name} is ${name.length} characters long`; // Change this line
+
+//   return message;
+// }
+
+// !!!!!!!!!!
+// !!!!!!!!!!!!!
+// !!!!!!!!!!!!!!
+
+// const courseTopic = "JavaScript essentials";
+// // Change code below this line
+
+// const courseTopicLength = courseTopic.length;
+// const firstElement = courseTopic[0];
+// const lastElement = courseTopic[courseTopic.length - 1];
+
+// // Change code above this line
+
+// !!!!!!!
+// !!!!!!!!!!
+// !!!!!!!!!!
+
+// function getSubstring(string, length) {
+//   const substring = string.slice(0, length); // Change this line
+//   return substring;
+// }
+
+// !!!!!!!!!!
+// !!!!!!!!!!
+// !!!!!!!!!
