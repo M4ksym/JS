@@ -484,3 +484,11 @@
 // !!!!!!!!!!
 // !!!!!!!!!!
 // !!!!!!!!!
+
+function formatMessage(message, maxLength) {
+  let result;
+  // Change code below this line
+  const substring = message.slice(0, '...');
+  /// Change code above this line
+  return result;
+}
