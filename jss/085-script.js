@@ -485,28 +485,18 @@
 // !!!!!!!!!!
 // !!!!!!!!!
 
-function formatMessage(message, maxLength) {
-  let result;
-  // Change code below this line
-  if (message.length > maxLength) {
-    result = message.slice(0, maxLength) + '...';
-  } else {
-    result = message;
-  }
-  /// Change code above this line
-  return result;
-}
+// function formatMessage(message, maxLength) {
+//   let result;
+//   // Change code below this line
+//   if (message.length > maxLength) {
+//     result = message.slice(0, maxLength) + '...';
+//   } else {
+//     result = message;
+//   }
+//   /// Change code above this line
+//   return result;
+// }
 
-console.log(formatMessage('Маккис ', 10));
-
-console.log(
-  formatMessage('Маккис файный хлопак майже сам решил задачку)))', 15),
-);
-
-console.log(
-  formatMessage('Маккис файный хлопак майже сам решил задачку)))', 50),
-);
-
-console.log(
-  formatMessage('Маккис файный хлопак майже сам решил задачку)))', 31),
-);
+// !!!!!!!!
+// !!!!!!!!
+// 1!!!!!!!
