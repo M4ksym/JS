@@ -488,7 +488,8 @@
 function formatMessage(message, maxLength) {
   let result;
   // Change code below this line
-  const substring = message.slice(0, '...');
+  const substring = message.slice(0, maxLength);
+  result = substring + '...';
   /// Change code above this line
   return result;
 }
