@@ -94,19 +94,77 @@
 // !!!!!!!!!!
 // !!!!!!!!!!
 
-const makeChangeColor = function () {
-  const changeColor = function (color) {
-    console.log('changeColor -> this', this);
-    this.color = color;
-  };
+// const makeChangeColor = function () {
+//   const changeColor = function (color) {
+//     console.log('changeColor -> this', this);
+//   };
 
-  const sweater = {
-    color: 'teal',
-  };
+//   const sweater = {
+//     color: 'teal',
+//   };
 
-  sweater.updateColor = changeColor;
+//   sweater.updateColor = changeColor;
 
-  return sweater.updateColor;
+//   return sweater.updateColor;
+// };
+
+// const swapColor = makeChangeColor();
+
+// swapColor('blue');
+
+// !!!!!!!!!
+// !!!!!!!!!!
+// !!!!!!!!!!
+
+// const makeChangeColor = function () {
+//   const changeColor = function (color) {
+//     console.log('changeColor -> this', this);
+//     this.color = color;
+//   };
+
+//   return changeColor;
+// };
+
+// const updateColor = makeChangeColor();
+// // updateColor('yellow'); ???
+
+// const hat = {
+//   color: 'blue',
+//   updateColor,
+// };
+
+// hat.updateColor('orange');
+// console.log(hat);
+
+// !!!!!!!!!
+// 1!!!!!!!!!
+// !!!!!!!!!
+
+//          call and apply
+
+const showThis = function (...args) {
+  console.log(args);
+  console.log('showThis -> this', this);
 };
 
-makeChangeColor();
+showThis();
+
+const objA = {
+  a: 5,
+  b: 10,
+};
+
+showThis.call(objA, 1, 5, 66, 899, 20);
+
+const changeColor = function (color) {
+  console.log('changeColor -> this', this);
+  this.color = color;
+};
+
+const hat = {
+  color: 'black',
+};
+
+const sweater = {
+  color: 'green',
+};
