@@ -1,44 +1,127 @@
 // !!!!!!!
-// 1!!!!!!!
-// !!!!!!!!!
 
-// let username;
-// console.log(typeof username); // "undefined"
+// const age = 10;
+// const totalPrice = 200.74;
+// const userName = 'Chelsy';
+// const message = 'Добро пожаловать!';
+// const isOpen = true;
+// const shouldConfirm = false;
 
-// let inputValue = null;
-// console.log(typeof inputValue); // "object"
+// console.log(5 * 5.1348);
 
-// const quantity = 17;
-// console.log(typeof quantity); // "number"
+// !!!!!!!!
+// 1!!!!!!!!
 
-// const message = "JavaScript is awesome!";
-// console.log(typeof message); // "string"
+// const type = typeof true;
 
-// const isSidebarOpen = false;
-// console.log(typeof isSidebarOpen); // "boolean"
+// console.log(type);
+
+// !!!!!!!!
+// !!!!!!!!
+//               ALERT
+
+// alert('НЕ забываем про alert');
+
+//              ALERT
+
+// !!!!!!
+// !!!!!!
+
+//               confirm
+
+// const shouldRenew = confirm('Хотите Продлить Подписку ?');
+// console.log(shouldRenew);
+
+//               confirm
 
 // !!!!!!!!
 // !!!!!!!!!
+
+//               prompt
+
+// let quantity = prompt('Введите кол-во товара');
+// quantity = Number(quantity);
+// console.log(quantity);
+// console.log(typeof quantity);
+
+// !!!!!!!!!
+
+// const quantity = prompt('Введите кол-во товара');
+// console.log(quantity);
+
+// !!!!!!!!
+
+// let quantity = prompt('Введите кол-во товара');
+// quantity = Number(quantity);
+// console.log(quantity);
+// console.log(typeof quantity);
+
+//               prompt
+
+// 1!!!!!!!!!!
+// !!!!!!!!!!!
+
+//               number
+
+// let elementWidth = '50px';
+// const result = Number.parseInt(elementWidth);
+
+// console.log(result);
+
+// let elementHeight = '200.533px';
+// elementHeight = Number.parseFloat(elementHeight);
+// console.log(elementHeight);
+
+// !!!!!!!!
+
+// const salary = 1455.9382;
+
+// console.log(salary);
+// console.log(salary.toFixed());
+
+// let salary = 1455.9382;
+
+// salary = Number(salary.toFixed(4));
+// console.log(salary);
+
+//               number
+
+// !!!!!!!!!
+// !!!!!!!!!
+
+//             приведение к числу
+
+// let quantity = '4';
+// console.log(Number(quantity));
+
+// !!!!!!!!!!!
 // !!!!!!!!!!
 
-//         вызов подтверждения да или нет
+//           Math
 
-// const isComing = confirm('Please confirm hotel reservation');
-// console.log(isComing);
+// !!!!!!!!!!
 
-// !!!!!!!!!!!!!!
-// !!!!!!!!!!!!!!!
-// 1!!!!!!!!!!!!!!
+// console.log(Math.PI);
 
-//               вызов модального окна с подтверждением
+// !!!!!!!!!!
 
-// const value = prompt('Please enter a number!');
-// console.log(typeof value); // "string"
-// console.log(value); // "5"
+const max = 80;
+const min = 20;
 
-// !!!!!!!!
-// !!!!!!!!
-// 1!!!!!!!
+const result = Math.round(Math.random() * (max - min) + min);
+
+console.log(result);
+
+// !!!!!!!!!!!!
+
+// const base = 2;
+// const power = 9;
+
+// const result = Math.pow(base, power);
+
+// console.log(result);
+
+// !!!!!!!!!!!!!!!!!!!
 
 // // Math.floor(num) - повертає найбільше ціле число,
 // // менше, або яке дорівнює зазначеному числу
@@ -66,11 +149,53 @@
 // console.log(Math.random()); // випадкове число між 0 і 1
 // console.log(Math.random() * (10 - 1) + 1); // псевдовипадкове число від 1 до 10
 
+//           Math
+
+// 1!!!!!!!!!!!
+// !!!!!!!!!!!
+// !!!!!!!!!!!
+
+// let username;
+// console.log(typeof username); // "undefined"
+
+// let inputValue = null;
+// console.log(typeof inputValue); // "object"
+
+// const quantity = 17;
+// console.log(typeof quantity); // "number"
+
+// const message = 'JavaScript is awesome!';
+// console.log(typeof message); // "string"
+
+// const isSidebarOpen = false;
+// console.log(typeof isSidebarOpen); // "boolean"
+
+// !!!!!!!!
 // !!!!!!!!!
-// 1!!!!!!!!!!
 // !!!!!!!!!!
 
-// const stars = 3;
+//               вызов подтверждения да или нет
+
+// const isComing = confirm('Please confirm hotel reservation');
+// console.log(isComing);
+
+// !!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!
+// 1!!!!!!!!!!!!!!
+
+//               вызов модального окна с подтверждением
+
+// const value = prompt('Please enter a number!');
+// console.log(typeof value); // "string"
+// console.log(value); // "5"
+
+//              вызов модального окна с подтверждением
+
+// !!!!!!!!
+// !!!!!!!!
+// 1!!!!!!!
+
+// const stars = 9;
 // let price;
 
 // switch (stars) {
@@ -84,15 +209,14 @@
 //     break;
 
 //   default:
-//     console.log('Иди в Жопу ');
+//     console.log('Много хочешь ');
 // }
-
-// !!!
-
-// !!!
-
 // console.log(price);
-// const option = 5;
+
+// !!!!!!!!!!!!
+// !!!!!!!!!!!!!
+
+// const option = 4;
 // let message = '';
 
 // switch (option) {
@@ -100,19 +224,19 @@
 //     message = 'Вы Можете Забрать Товар из Урны';
 //     break;
 //   case 2:
-//     message = 'Курьер Доставит Вам Товар';
+//     message = 'Черт Доставит Вам Товар';
 //     break;
 //   case 3:
-//     message = 'Вам отправят товар почтой через ад';
+//     message = 'Вам отправят товар Укр Почтой';
 //     break;
 //   default:
 //     message = 'Вам перезвонит наш Урод';
 // }
 // console.log(message);
 
-// 111
-
-// !!!
+// !!!!!!!!!!!
+// !!!!!!!!!!!!
+// !!!!!!!!!!!!!!!
 
 // let totalSpent = 3250;
 // let payment = 437;
@@ -155,3 +279,6 @@
 //   console.log('total:', total);
 //   valueInput.value = '';
 // });
+
+// !!!!!!!!!
+// !!!!!!!!
