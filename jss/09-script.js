@@ -142,29 +142,29 @@
 
 //          call and apply
 
-const showThis = function (...args) {
-  console.log(args);
-  console.log('showThis -> this', this);
-};
+// const showThis = function (...args) {
+//   console.log(args);
+//   console.log('showThis -> this', this);
+// };
 
-showThis();
+// showThis();
 
-const objA = {
-  a: 5,
-  b: 10,
-};
+// const objA = {
+//   a: 5,
+//   b: 10,
+// };
 
-showThis.call(objA, 1, 5, 66, 899, 20);
+// showThis.call(objA, 1, 5, 66, 899, 20);
 
-const changeColor = function (color) {
-  console.log('changeColor -> this', this);
-  this.color = color;
-};
+// const changeColor = function (color) {
+//   console.log('changeColor -> this', this);
+//   this.color = color;
+// };
 
-const hat = {
-  color: 'black',
-};
+// const hat = {
+//   color: 'black',
+// };
 
-const sweater = {
-  color: 'green',
-};
+// const sweater = {
+//   color: 'green',
+// };
