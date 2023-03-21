@@ -1,4 +1,4 @@
-// !!!!!!!
+//                                    УРОК НОМЕР ОДИН ОТКРЫТ
 
 // const age = 10;
 // const totalPrice = 200.74;
@@ -10,7 +10,7 @@
 // console.log(5 * 5.1348);
 
 // !!!!!!!!
-// 1!!!!!!!!
+// !!!!!!!!
 
 // const type = typeof true;
 
@@ -44,12 +44,12 @@
 // console.log(quantity);
 // console.log(typeof quantity);
 
-// !!!!!!!!!
+// ++++++++++++
 
 // const quantity = prompt('Введите кол-во товара');
 // console.log(quantity);
 
-// !!!!!!!!
+// +++++++++++++
 
 // let quantity = prompt('Введите кол-во товара');
 // quantity = Number(quantity);
@@ -72,7 +72,7 @@
 // elementHeight = Number.parseFloat(elementHeight);
 // console.log(elementHeight);
 
-// !!!!!!!!
+// ++++++++++++++
 
 // const salary = 1455.9382;
 
@@ -99,7 +99,7 @@
 
 //           Math
 
-// !!!!!!!!!!
+// !!!!!!!!!
 
 // console.log(Math.PI);
 
@@ -234,13 +234,67 @@
 
 // ===  !==
 
-//            операторы и или
+//            операторы и,или
 
 //    and &&    or ||     not !
+
+//                  && и
+
+// const x1 = 5;
+// const x2 = 15;
+// const number = 9;
+
+// console.log(number === x1 && number === x2);
+
+// console.log(`Число ${number} больше  ${x1}? `, number > x1);
+// console.log(`Число ${number} меньше ${x1}? `, number < x1);
+// console.log(`Число ${number} больше  ${x1}? `, number > x2);
+// console.log(`Число ${number} меньше ${x1}? `, number < x2);
+
+// +++++++++++++++
+
+//                  или ||
+// const x1 = 5;
+// const x2 = 15;
+// const number = 9;
+
+// console.log(number > x1 || number < x2);
 
 // !!!!!!!!
 // !!!!!!!!!
 
+// const balance = 1000;
+// let message;
+
+// if (balance > 0) {
+//   message = 'Позитивный баланс';
+// } else {
+//   message = 'Негативный баланс';
+// }
+// console.log(message);
+
+// !!!!!!!!!!!!!!
+// !!!!!!!!!!!!!
+// 1!!!!!!!!!!!!!!
+
+//                           ТЕРНАРНЫЙ ОПЕРАТОР  ? :
+
+const balance = 1000;
+
+let message = balance > 0 ? 'Позитивный баланс' : 'Негативный баланс';
+
+console.log(message);
+
+//                          ТЕРНАРНЫЙ ОПЕРАТОР
+
+// !!!!!!!!!!!!
+// !!!!!!!!!!!!!
+
+//                                 УРОК НОМЕР ОДИН ЗАКОНЧЕН
+
+// console.log(11 > 10);
+
+//                                 УРОК НОМЕР ДВА ОТКРЫТ
 // const stars = 9;
 // let price;
 
