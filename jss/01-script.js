@@ -105,12 +105,12 @@
 
 // !!!!!!!!!!
 
-const max = 80;
-const min = 20;
+// const max = 80;
+// const min = 20;
 
-const result = Math.round(Math.random() * (max - min) + min);
+// const result = Math.round(Math.random() * (max - min) + min);
 
-console.log(result);
+// console.log(result);
 
 // !!!!!!!!!!!!
 
@@ -193,7 +193,53 @@ console.log(result);
 
 // !!!!!!!!
 // !!!!!!!!
+
+//             метот length-длинна строки
+
+// const message = 'В этой строке очень много символов ?';
+// console.log(message.length);
+
+//             метот length-длинна строки
+
+// !!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!
+
+//              toLowerCase
+
+// const brand = 'Samsung';
+// const normalizedBrand = brand.toLowerCase();
+// console.log(normalizedBrand);
+
+// ++++++++++
+
+// let brand = 'Samsung';
+// brand = brand.toLowerCase();
+// console.log(brand);
+
+// +++++++++++++      toUpperCase
+
+// let brand = 'Samsung';
+// brand = brand.toUpperCase();
+// console.log(brand);
+
+// +++++++++++++      toUpperCase
+
+//                  toLowerCase
+
 // 1!!!!!!!
+// !!!!!!!!!!!
+// !!!!!!!!!!!
+
+//          операторы равенства и не равенства
+
+// ===  !==
+
+//            операторы и или
+
+//    and &&    or ||     not !
+
+// !!!!!!!!
+// !!!!!!!!!
 
 // const stars = 9;
 // let price;
