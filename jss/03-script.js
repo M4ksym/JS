@@ -1,204 +1,201 @@
-// const add = function (a, b) {
-//   console.log(a);
-//   console.log(b);
+// const friends = ['Mango', 'Kiwi', 'Poly', 'Ajax'];
 
-//   const result = a * b;
-//   console.log('a+b:', result);
-//   console.log('Выполняется функция add');
-// };
-// add(40, 9);
-// add(22, 4);
-// add(54, 76);
-// !!!!
-// !!!!
-// const fn = function () {
-//   console.log(1);
-//   console.log(2);
-//   console.log(3);
+// console.table(friends);
 
-//   return 'Fuck you';
-// };
-// console.log('Результат:', fn());
+// const a = [1, 2, 3, 4];
+// const b = a;
 
-// !!!!!
-// !!!!!
-// const fnA = function () {
-//   console.log('Выполняется функция А');
-// };
-// const fnB = function () {
-//   console.log('Выполняется функция B');
-// };
-// const fnC = function () {
-//   console.log('Выполняется функция C');
-// };
-// fnA();
-// fnB();
-// fnC();
-// !!!!
-// !!!
-// !!!!
-// const cart = [8, 7, 50, 434, 11, 45, 66, 93];
-// let total = 0;
+// console.table(a);
+// console.table(b);
+// !!!!!!
+// !!!!!!
+// !!!!!!
+// const friends = ['Mango', 'Kiwi', 'Poly', 'Ajax'];
 
-// for (const value of cart) {
-//   total += value;
+// for (const friend of friends) {
+//   console.log(friend);
 // }
 
-// console.log('Total:', total);
-// !!!!!!
-// !!!!!!
-// !!!!!!
-// const calculateTotalPrice = function (items) {
-//   console.log('item внутри функции:', items);
-//   let total = 0;
-//   for (const item of items) {
-//     total += item;
-//   }
-//   return total;
-// };
-// console.log(calculateTotalPrice([1, 2, 3]));
-// console.log(calculateTotalPrice([10, 20, 30]));
-// console.log(calculateTotalPrice([100, 200, 300]));
-// !!!!!!!/
-// !!!!!!!
-// const logItems = function (items) {
-//   for (const item of items) {
-//     console.log(item);
-//   }
-// };
-// logItems([2, 3, 6, 77, 9]);
-// logItems(['Poly', 'Ajax', 'Jax', 'Max']);
-// logItems(['Наушники', 'Часы', 'Очки']);
-// !!!!!!!
-// !!!!!!
-// !!!!!!
-// const logins = ['Naruto', 'Soro', 'Bono'];
-// const loginToFind = 'Bono';
+// const cart = [54, 105, 28, 44, 89, 17, 70, 104];
+// let total = 0;
 
+// for (let i = 0; i < cart.length; i += 1) {
+//   console.log(cart[i]);
+//   total += cart[i];
+// }
+// console.log('total', total);
+// !!!!
+// !!!!!!
+// !!!!!!!
+// const numbers = [1, 2, 6, 4, 7, 90, 11, 54, 31, 77, 12, 84, 80, 7, 99, 14];
+// let total = 0;
+
+// for (let i = 0; i < numbers.length; i += 1) {
+//   console.log(numbers[i]);
+
+//   if (numbers[i] % 2 === 0) {
+//     console.log('Четное');
+//   }
+//   total += numbers[i];
+// }
+
+// for (const number of numbers) {
+//   console.log(number);
+
+//   if (number % 2 === 0) {
+//     console.log('Четное');
+//   }
+//   total += number;
+// }
+// !!!!!!!!!
+// !!!!!!!!!
+// !!!!!!!!
+// const logins = [
+//   'Naruto',
+//   'Soro',
+//   'Jack',
+//   'Ludmila',
+//   'Doogee',
+//   'Ezio',
+//   'Thor',
+//   'Me',
+//   'Bona',
+//   'Jack',
+//   'Bono',
+//   'Poly',
+//   'Mango',
+// ];
+// const loginToFind = 'Bono';
+// let message = `Пользователь ${loginToFind} не найден.`;
+
+// for (let i = 0; i < logins.length; i += 1) {
+//   const login = logins[i];
+
+//   if (login === loginToFind) {
+//     message = `Пользователь ${loginToFind} найден`;
+//     break;
+//   }
+// }
+// console.log(message);
+
+// !!
+
+// for (const login of logins) {
+//   console.log(`Login:`, login);
+//   console.log(`${login} === ${loginToFind}: `, login === loginToFind);
+
+//   if (login === loginToFind) {
+//     message = `Пользователь ${loginToFind} найден`;
+//     break;
+//   }
+// }
+
+// console.log(message);
+
+// !!!
+// console.log(logins.includes('Bona'));
+// !!!
+// !!!
 // const message = logins.includes(loginToFind)
 //   ? `Пользователь ${loginToFind} найден.`
 //   : `Пользователь ${loginToFind} не найден. `;
 
 // console.log(message);
+
 // !!!!!!!!!
 // !!!!!!!!!
-// !!!!!!!!!
-// const logins = ['Naruto', 'Soro', 'Bono'];
-// const findLogin = function (allLogins, loginToFind) {
-//   for (const login of allLogins) {
-//     if (login === loginToFind) {
-//       return `Пользователь ${loginToFind} найден. `;
-//     }
+// /!!!!!!!!!!!
+
+// const numbers = [43, 50, 33, 69, 2, 11, 9];
+// let smallestNumber = numbers[0];
+
+// for (const number of numbers) {
+//   if (numbers < smallestNumber) {
+//     smallestNumber = number;
 //   }
-//   return `Пользователь ${loginToFind} не найден. `;
-// };
-// console.log(findLogin(logins, 'Nara'));
-// console.log(findLogin(logins, 'Naruto'));
-// console.log(findLogin(logins, 'Soro'));
-// console.log(findLogin(logins, 'Bono'));
-// !!!!!!
-// !!!!!!!
-// !!!!!!!
-// const logins = ['Naruto', 'Soro', 'Bono'];
-
-// const findLogin = function (allLogins, loginToFind) {
-//   return allLogins.includes(loginToFind)
-//     ? `Пользователь ${loginToFind} не найден. `
-//     : `Пользователь ${loginToFind} найден. `;
-// };
-
-// console.log(findLogin(logins, 'Nara'));
-// console.log(findLogin(logins, 'Naruto'));
-// console.log(findLogin(logins, 'Soro'));
-// console.log(findLogin(logins, 'Bono'));
-// !!!!!!
+// }
+// console.log('smallestNumber: ', smallestNumber);
+// !!!!!
 // !!!!!!!
 // !!!!!!!!
+// !!!!!!!!
+// Slice   !!
+// const friends = ['Mango', 'Kiwi', 'Ajax'];
+// let string = '';
+
+// for (const friend of friends) {
+//   string += friend + ',';
+// }
+// string = string.slice(0, string.length - 1);
+// console.log(string);
+// !!!!!
+// !!!!!
+// Join
+// const friends = ['Mango', 'Kiwi', 'Ajax'];
+// const string = friends.join(' ');
+// console.log(string);
+
+//  !!!!
+// !!!!
+// !!!!!
+// const string = 'JavaScript';
+// const letters = string.split('');
+// let invertedString = '';
+
+// console.log(letters);
+
+// for (const letter of letters) {
+//   console.log(letter);
+
+//   invertedString +=
+//     letter === letter.toLowerCase()
+//       ? letter.toUpperCase()
+//       : letter.toLowerCase();
+// }
+// console.log('invertedString:', invertedString);
+// !!!!!
+// !!!!!
+// 1!!!!!
 // const title = 'Top 10 Benefits of React Framework';
-
 // const normalizedTitle = title.toLowerCase();
-// const words = normalizedTitle.split(' ');
-// const slug = words.join('-');
-
+// const word = normalizedTitle.split(' ');
+// const slug = word.join('-');
+// console.log(slug);
+// !!!!
+// !!!!
+// const title = 'Top 10 Benefits of React Framework';
 // const slug1 = title.toLowerCase().split(' ').join('-');
-
 // console.log(slug1);
-
-// const slugify = function (string) {
-
-// const normalizedTitle = strimg.toLowerCase();
-// const words = normalizedTitle.split(' ');
-// const slug = words.join('-');
-
-// }
-// console.log(slugify('Top 10 Benefits of React Framework'));
-// console.log(slugify('Lorem ipsum, dolor sit amet .'));
-// console.log(slugify('Lorem ipsum, dolor sit amet.'));
 // !!!!!
-// !!!!!
-// !!!!!!
-// const slugify = function (string) {
-//    return string.toLowerCase().split(' ').join('-');
-// }
-// console.log(slugify('Top 10 Benefits of React Framework'));
-// console.log(slugify('Lorem ipsum, dolor sit amet .'));
-// console.log(slugify('Lorem ipsum, dolor sit amet.'));
-// !!!!!!!
 // !!!!!!
 // !!!!!!!
-// const fn = function () {
-//   console.log(arguments);
+// const array1 = [5, 10, 20];
+// const array2 = [15, 25, 35];
+// let total = 0;
 
-//   const args = Array.from(arguments);
+// const numbers = array1.concat(array2);
 
-//   console.log(args);
-// };
-// fn(3, 5, 90, 65);
-// fn(55, 61, 69);
-// fn(11, 43, 61, 23);
+// for (const number of numbers) {
+//   total += number;
+// }
+// console.log(total);
+// !!!!!
 // !!!!!
 // !!!!!!
-// !!!!!
-// const fn = function (...args) {
-//   console.log(args);
-// };
-// fn('hello', 1, 2, 3);
-// fn('aloha', 4, 5, 6, 7);
-// fn('Ой Бой', 8, 9);
-// !!!!!
-// !!!!!
-// !!!!!
-// const add = function (...args) {
-//   console.log(args);
-//   let total = 0;
+// !!!!!!
+// const cards = [
+//   'Карточка-1',
+//   'Карточка-2',
+//   'Карточка-3',
+//   'Карточка-4',
+//   'Карточка-5',
+// ];
+// console.table(cards);
 
-//   for (const arg of args) {
-//     total += arg;
-//   }
-//   return total;
-// };
-// console.log(add(1, 2, 56, 77, 94));
-// console.log(add(12, 21, 62, 7, 34));
-// console.log(add(11, 20, 36, 37, 94));
-// !!!!!
-// !!!!!
-// !!!!!
-// const filterNumbers = function (array, ...args) {
-//   console.log('array', array);
-//   console.log('args', args);
-//   const uniqueElements = [];
+// const cardToRemove = 'Карточка-3';
+// const index = cards.indexOf(cardToRemove);
+// console.log(index);
 
-//   for (const element of array) {
-//     if (args.includes(element)) {
-//       uniqueElements.push(element);
+// cards.splice(index, 1);
 
-//       console.log(`${element} есть везде!`);
-//     }
-//   }
-//   return uniqueElements;
-// };
-
-// console.log(filterNumbers([1, 2, 3, 4, 5], 3, 33, 44, 55));
-// console.log(filterNumbers([1, 2, 3, 4], 86, 12, 4, 475));
-// console.log(filterNumbers([1, 2, 3, 4], 86, 12, 2, 475));
-// console.log(filterNumbers([1, 2, 3, 4], 1, 12, 103, 475));
+// console.table(cards);
