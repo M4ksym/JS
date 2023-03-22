@@ -137,36 +137,38 @@
 // !!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!
 
-let totalSpent = 3000;
-let payment = 6500;
-let discount = 0;
+// let totalSpent = 3000;
+// let payment = 500;
+// let discount = 0;
 
-if (totalSpent >= 100 && totalSpent < 1000) {
-  console.log('Бронзовый партнёр,скидка 2%');
-  discount = 0.02;
-} else if (totalSpent >= 1000 && totalSpent < 3000) {
-  console.log('Серебряный партёр ,скидка 7%');
-  discount = 0.07;
-} else if (totalSpent >= 3000) {
-  console.log('Золотой партёр ,скидка 12%');
-  discount = 0.12;
-} else {
-  console.log('Не партнёр, скидка 0%');
-}
+// if (totalSpent >= 100 && totalSpent < 1000) {
+//   console.log('Бронзовый партнёр,скидка 4%');
+//   discount = 0.04;
+// } else if (totalSpent >= 1000 && totalSpent < 3000) {
+//   console.log('Серебряный партёр ,скидка 10%');
+//   discount = 0.1;
+// } else if (totalSpent >= 3000) {
+//   console.log('Золотой партёр ,скидка 15%');
+//   discount = 0.15;
+// } else {
+//   console.log('Не партнёр, скидка 0%');
+// }
 
-payment -= payment * discount;
+// payment -= payment * discount;
 
-console.log(
-  `Оформляем заказ на сумму ${payment} со скидкой ${discount * 100}%`,
-);
+// console.log(
+//   `Оформляем заказ на сумму ${payment} со скидкой ${discount * 100}%`,
+// );
 
-totalSpent += payment;
+// totalSpent += payment;
 
-console.log(`Общая сумма потреченого в магазине ${totalSpent} `);
+// console.log(`Общая сумма потреченого в магазине ${totalSpent} `);
 
 // !!!!!!!!!!!!!!!!!!!!!!
 // 1!!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!!
+
+//                      калькулятор из html
 
 // const bthAdd = document.querySelector('button[data-add]');
 // const valueInput = document.querySelector('input[data-value]');
@@ -183,5 +185,5 @@ console.log(`Общая сумма потреченого в магазине ${
 //   valueInput.value = '';
 // });
 
-// !!!!!!!!!
-// !!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!
