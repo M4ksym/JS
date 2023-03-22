@@ -4,27 +4,27 @@
 
 // !!!!!!!!!!!!
 
-const stars = 1;
-let price;
+// const stars = 1;
+// let price;
 
-switch (stars) {
-  case 1:
-    price = `4$`;
-    break;
-  case 2:
-    price = `20$`;
-    break;
-  case 3:
-    price = `40$`;
-    break;
-  case 4:
-    price = `220$`;
-    break;
+// switch (stars) {
+//   case 1:
+//     price = `4$`;
+//     break;
+//   case 2:
+//     price = `20$`;
+//     break;
+//   case 3:
+//     price = `40$`;
+//     break;
+//   case 4:
+//     price = `220$`;
+//     break;
 
-  default:
-    console.log('Много хочешь ');
-}
-console.log(price);
+//   default:
+//     console.log('Много хочешь ');
+// }
+// console.log(price);
 
 // !!!!!!!!!!!!
 // !!!!!!!!!!!!!
