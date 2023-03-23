@@ -1,33 +1,89 @@
+//                         урок номер три
+
 // const friends = ['Mango', 'Kiwi', 'Poly', 'Ajax'];
 
 // console.table(friends);
 
+// !!!!!!!!!!!!!!!!!!!!
+// 1!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!
+
 // const a = [1, 2, 3, 4];
 // const b = a;
 
-// console.table(a);
-// console.table(b);
-// !!!!!!
-// !!!!!!
-// !!!!!!
-// const friends = ['Mango', 'Kiwi', 'Poly', 'Ajax'];
+// console.log(a);
+// console.log(b);
 
-// for (const friend of friends) {
-//   console.log(friend);
+// !!!!!!
+// !!!!!!
+// !!!!!!
+
+// const friends = ['Mango', 'Kiwi', 'Poly', 'Ajax'];
+// console.table(friends);
+// const lastIndex = friends.length - 1;
+
+// for (let i = 0; i < friends.length; i += 1) {
+//   friends[i] += `-${i}`;
 // }
 
-// const cart = [54, 105, 28, 44, 89, 17, 70, 104];
+// console.table(friends);
+
+// ++++++++++++++++++++++++++
+
+// const friends = ['Mango', 'Kiwi', 'Poly', 'Ajax'];
+// for (const friend of friends) {
+// }
+// console.log(friends);
+
+// !!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!
+
+// const cart = [54, 105, 28, 5, 89, 17, 70, 104, 43, 11, 75, 83, 99];
 // let total = 0;
 
 // for (let i = 0; i < cart.length; i += 1) {
 //   console.log(cart[i]);
 //   total += cart[i];
 // }
-// console.log('total', total);
-// !!!!
-// !!!!!!
-// !!!!!!!
-// const numbers = [1, 2, 6, 4, 7, 90, 11, 54, 31, 77, 12, 84, 80, 7, 99, 14];
+// console.log('Total:', total);
+
+// ++++++++++++++++++++++++++++++++++++
+
+// const cart = [54, 105, 28, 5, 89, 17, 70, 104, 43, 11, 75, 83, 99];
+// let total = 0;
+
+// for (const value of cart) {
+//   total += value;
+// }
+
+// console.log('Total:', total);
+
+// !!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!
+
+// const cart = [54, 105, 28, 5, 89, 17, 70, 104, 43, 11, 75, 83, 99, 3];
+
+// for (let i = 0; i < cart.length; i += 1) {
+//   cart[i] = Math.round(cart[i] * 1.1);
+// }
+
+// console.log(cart);
+
+// ++++++++++++++++++++++++++++++
+
+// const cart = [54, 105, 28, 5, 89, 17, 70, 104, 43, 11, 75, 83, 99, 3];
+
+// for (let value of cart) {
+//   value = Math.round(value * 1.1);
+// }
+// console.log(cart);
+
+// !!!!!!!!!!!!!!!
+// !!!!!!1!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!
+
+// const numbers = [1, 2, 6, 4, 7, 99, 14];
 // let total = 0;
 
 // for (let i = 0; i < numbers.length; i += 1) {
@@ -35,30 +91,50 @@
 
 //   if (numbers[i] % 2 === 0) {
 //     console.log('Четное');
+
+//     total += numbers[i];
 //   }
-//   total += numbers[i];
 // }
+
+// console.log('Total:', total);
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++
+
+// const numbers = [1, 2, 6, 4, 7, 99, 14];
+// let total = 0;
 
 // for (const number of numbers) {
 //   console.log(number);
 
 //   if (number % 2 === 0) {
 //     console.log('Четное');
+//     total += number;
 //   }
-//   total += number;
 // }
+
+// console.log('Total:', total);
+
 // !!!!!!!!!
 // !!!!!!!!!
 // !!!!!!!!
+
+const logins = ['Bona', 'Jack', 'Bono', 'Poly', 'Mango'];
+const loginToFind = 'Bono';
+let message = `Пользователь ${loginToFind} не найден.`;
+
+for (let i = 0; i < logins.length; i += 1) {
+  const login = logins[i];
+
+  if (login === loginToFind) {
+    message = `Пользователь ${loginToFind} найден`;
+    break;
+  }
+}
+console.log(message);
+
+// +++++++++++++++++++++++++++++++++++++++++++
+
 // const logins = [
-//   'Naruto',
-//   'Soro',
-//   'Jack',
-//   'Ludmila',
-//   'Doogee',
-//   'Ezio',
-//   'Thor',
-//   'Me',
 //   'Bona',
 //   'Jack',
 //   'Bono',
@@ -68,22 +144,7 @@
 // const loginToFind = 'Bono';
 // let message = `Пользователь ${loginToFind} не найден.`;
 
-// for (let i = 0; i < logins.length; i += 1) {
-//   const login = logins[i];
-
-//   if (login === loginToFind) {
-//     message = `Пользователь ${loginToFind} найден`;
-//     break;
-//   }
-// }
-// console.log(message);
-
-// !!
-
 // for (const login of logins) {
-//   console.log(`Login:`, login);
-//   console.log(`${login} === ${loginToFind}: `, login === loginToFind);
-
 //   if (login === loginToFind) {
 //     message = `Пользователь ${loginToFind} найден`;
 //     break;
@@ -92,11 +153,18 @@
 
 // console.log(message);
 
-// !!!
-// console.log(logins.includes('Bona'));
-// !!!
-// !!!
-// const message = logins.includes(loginToFind)
+// ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// const logins = [
+//   'Bona',
+//   'Jack',
+//   'Bono',
+//   'Poly',
+//   'Mango',
+// ];
+// const loginToFind = 'Bono';
+
+// let message = logins.includes(loginToFind)
 //   ? `Пользователь ${loginToFind} найден.`
 //   : `Пользователь ${loginToFind} не найден. `;
 
