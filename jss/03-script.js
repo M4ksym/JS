@@ -216,21 +216,21 @@
 
 //                          полная инверсия
 
-const string = 'JavaScript';
-const letters = string.split('');
-let invertedString = '';
+// const string = 'JavaScript';
+// const letters = string.split('');
+// let invertedString = '';
 
-console.log(letters);
+// console.log(letters);
 
-for (const letter of letters) {
-  console.log(letter);
+// for (const letter of letters) {
+//   console.log(letter);
 
-  invertedString +=
-    letter === letter.toLowerCase()
-      ? letter.toUpperCase()
-      : letter.toLowerCase();
-}
-console.log('invertedString:', invertedString);
+//   invertedString +=
+//     letter === letter.toLowerCase()
+//       ? letter.toUpperCase()
+//       : letter.toLowerCase();
+// }
+// console.log('invertedString:', invertedString);
 
 //                              SPLIT
 
@@ -238,33 +238,44 @@ console.log('invertedString:', invertedString);
 // !!!!!!!!!!!!!!!
 // 1!!!!!!!!!!!!!!!!!!
 
+//                              SLUG
+
 // const title = 'Top 10 Benefits of React Framework';
 // const normalizedTitle = title.toLowerCase();
 // const word = normalizedTitle.split(' ');
 // const slug = word.join('-');
 // console.log(slug);
-// !!!!
-// !!!!
+
+// +++++++++++++++++++++++++++++++++++++++
+
 // const title = 'Top 10 Benefits of React Framework';
-// const slug1 = title.toLowerCase().split(' ').join('-');
-// console.log(slug1);
-// !!!!!
-// !!!!!!
-// !!!!!!!
-// const array1 = [5, 10, 20];
-// const array2 = [15, 25, 35];
-// let total = 0;
+// const slug = title.toLowerCase().split(' ').join('-');
+// console.log(slug);
 
-// const numbers = array1.concat(array2);
+//                            SLUG
 
-// for (const number of numbers) {
-//   total += number;
-// }
-// console.log(total);
-// !!!!!
-// !!!!!
-// !!!!!!
-// !!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!
+
+//                           CONCAT
+
+const array1 = [5, 10, 15, 20];
+const array2 = [15, 25, 35];
+let total = 0;
+
+const numbers = array1.concat(array2);
+
+for (const number of numbers) {
+  total += number;
+}
+console.log(numbers);
+console.log(total);
+
+//                           CONCAT
+
+// !!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!
+
 // const cards = [
 //   'Карточка-1',
 //   'Карточка-2',
