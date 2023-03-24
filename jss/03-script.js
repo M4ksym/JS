@@ -118,19 +118,19 @@
 // !!!!!!!!!
 // !!!!!!!!
 
-const logins = ['Bona', 'Jack', 'Bono', 'Poly', 'Mango'];
-const loginToFind = 'Bono';
-let message = `Пользователь ${loginToFind} не найден.`;
+// const logins = ['Bona', 'Jack', 'Bono', 'Poly', 'Mango'];
+// const loginToFind = 'Bono';
+// let message = `Пользователь ${loginToFind} не найден.`;
 
-for (let i = 0; i < logins.length; i += 1) {
-  const login = logins[i];
+// for (let i = 0; i < logins.length; i += 1) {
+//   const login = logins[i];
 
-  if (login === loginToFind) {
-    message = `Пользователь ${loginToFind} найден`;
-    break;
-  }
-}
-console.log(message);
+//   if (login === loginToFind) {
+//     message = `Пользователь ${loginToFind} найден`;
+//     break;
+//   }
+// }
+// console.log(message);
 
 // +++++++++++++++++++++++++++++++++++++++++++
 
