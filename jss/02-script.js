@@ -4,21 +4,21 @@
 
 // !!!!!!!!!!!!
 
-// const stars = 4;
+// let stars = Number(prompt('Введи число до 4'));
 // let price;
 
 // switch (stars) {
 //   case 1:
-//     price = `4$`;
+//     alert(`4$`);
 //     break;
 //   case 2:
-//     price = `20$`;
+//     alert(`20$`);
 //     break;
 //   case 3:
-//     price = `40$`;
+//     alert(`80$`);
 //     break;
 //   case 4:
-//     price = `220$`;
+//     alert(`250$`);
 //     break;
 
 //   default:
