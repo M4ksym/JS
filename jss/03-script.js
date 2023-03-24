@@ -1,3 +1,4 @@
+//
 //                         урок номер три
 
 // const friends = ['Mango', 'Kiwi', 'Poly', 'Ajax'];
@@ -259,22 +260,26 @@
 
 //                           CONCAT
 
-const array1 = [5, 10, 15, 20];
-const array2 = [15, 25, 35];
-let total = 0;
+// const array1 = [5, 10, 15, 20];
+// const array2 = [15, 25, 35];
+// let total = 0;
 
-const numbers = array1.concat(array2);
+// const numbers = array1.concat(array2, [11, 44, 32]);
 
-for (const number of numbers) {
-  total += number;
-}
-console.log(numbers);
-console.log(total);
+// for (const number of numbers) {
+//   total += number;
+// }
+// console.table(numbers);
+// console.log(total);
 
 //                           CONCAT
 
 // !!!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!!
+
+//                           SPLICE
+
+//                     удаление по индексу карточки номер-3
 
 // const cards = [
 //   'Карточка-1',
@@ -292,3 +297,46 @@ console.log(total);
 // cards.splice(index, 1);
 
 // console.table(cards);
+
+// ++++++++++++++++++++++++++++
+
+//                    добовление по индексу карточки номер-6
+
+// const cards = [
+//   'Карточка-1',
+//   'Карточка-2',
+//   'Карточка-3',
+//   'Карточка-4',
+//   'Карточка-5',
+// ];
+// console.table(cards);
+
+// const cardToInsert = 'Карточка-6';
+// const index = 5;
+
+// cards.splice(index, 0, cardToInsert);
+
+// console.table(cards);
+
+// ++++++++++++++++++++++++++++
+
+//              обновление по индексу карточки номер-2
+
+// const cards = [
+//   'Карточка-1',
+//   'Карточка-2',
+//   'Карточка-3',
+//   'Карточка-4',
+//   'Карточка-5',
+// ];
+// console.table(cards);
+
+// const cardToUpdate = 'Карточка-2';
+// const index = cards.indexOf(cardToUpdate);
+// console.log(index);
+
+// cards.splice(index, 1, 'Карточка-0');
+
+// console.table(cards);
+
+//                          SPLICE
