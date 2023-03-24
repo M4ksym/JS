@@ -155,13 +155,7 @@
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++
 
-// const logins = [
-//   'Bona',
-//   'Jack',
-//   'Bono',
-//   'Poly',
-//   'Mango',
-// ];
+// const logins = ['Bona', 'Jack', 'Bono', 'Poly', 'Mango'];
 // const loginToFind = 'Bono';
 
 // let message = logins.includes(loginToFind)
@@ -178,16 +172,21 @@
 // let smallestNumber = numbers[0];
 
 // for (const number of numbers) {
-//   if (numbers < smallestNumber) {
+//   console.log(number);
+
+//   if (number < smallestNumber) {
 //     smallestNumber = number;
 //   }
 // }
 // console.log('smallestNumber: ', smallestNumber);
+
 // !!!!!
 // !!!!!!!
 // !!!!!!!!
 // !!!!!!!!
-// Slice   !!
+
+//                             Slice
+
 // const friends = ['Mango', 'Kiwi', 'Ajax'];
 // let string = '';
 
@@ -196,34 +195,49 @@
 // }
 // string = string.slice(0, string.length - 1);
 // console.log(string);
-// !!!!!
-// !!!!!
-// Join
-// const friends = ['Mango', 'Kiwi', 'Ajax'];
+
+//                             Slice
+
+// !!!!!!!!!!!!!!!!!!!
+
+//                              Join
+
+// const friends = ['Mango', 'Kiwi', 'Ajax', 'Bono', 'End'];
 // const string = friends.join(' ');
 // console.log(string);
 
-//  !!!!
+//                              Join
+
+// !!!!
 // !!!!
 // !!!!!
-// const string = 'JavaScript';
-// const letters = string.split('');
-// let invertedString = '';
 
-// console.log(letters);
+//                              SPLIT
 
-// for (const letter of letters) {
-//   console.log(letter);
+//                          полная инверсия
 
-//   invertedString +=
-//     letter === letter.toLowerCase()
-//       ? letter.toUpperCase()
-//       : letter.toLowerCase();
-// }
-// console.log('invertedString:', invertedString);
-// !!!!!
-// !!!!!
-// 1!!!!!
+const string = 'JavaScript';
+const letters = string.split('');
+let invertedString = '';
+
+console.log(letters);
+
+for (const letter of letters) {
+  console.log(letter);
+
+  invertedString +=
+    letter === letter.toLowerCase()
+      ? letter.toUpperCase()
+      : letter.toLowerCase();
+}
+console.log('invertedString:', invertedString);
+
+//                              SPLIT
+
+// !!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!
+// 1!!!!!!!!!!!!!!!!!!
+
 // const title = 'Top 10 Benefits of React Framework';
 // const normalizedTitle = title.toLowerCase();
 // const word = normalizedTitle.split(' ');
