@@ -157,83 +157,126 @@
 // !!!!!!!!!!!!!!!!!!!!!!!
 // 1!!!!!!!!!!!!!!!!!!!!!
 
-const title = 'Top 10 Benefits of React Framework';
+// const changeCase = string => {
+//   const letters = string.split('');
+//   let invertedString = '';
 
-const normalizedTitle = title.toLowerCase();
-const words = normalizedTitle.split(' ');
-const slug = words.join('-');
+//   for (const letter of letters) {
+//     const isInLoverCase = letter === letter.toLowerCase();
 
-const slug1 = title.toLowerCase().split(' ').join('-');
+//     invertedString += isInLoverCase
+//       ? letter.toUpperCase()
+//       : letter.toLowerCase();
+//   }
 
-console.log(slug1);
+//   return invertedString;
+// };
 
-const slugify = function (string) {
-  const normalizedTitle = string.toLowerCase();
-  const words = normalizedTitle.split(' ');
-  const slug = words.join('-');
-};
-console.log(slugify('Top 10 Benefits of React Framework'));
-console.log(slugify('Lorem ipsum, dolor sit amet .'));
-console.log(slugify('Lorem ipsum, dolor sit amet.'));
+// console.log(changeCase('qweEWQ'));
+// console.log(changeCase('POIpoi'));
+// console.log(changeCase('ZXCzxc'));
+// console.log(changeCase('zxcZXC'));
 
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!
 
-// const slugify = function (string) {
-//    return string.toLowerCase().split(' ').join('-');
-// }
+// const title = 'Top 10 Benefits of React Framework';
+
+// const normalizedTitle = title.toLowerCase();
+// const words = normalizedTitle.split(' ');
+// const slug = words.join('-');
+
+// console.log(slug);
+
+// ++++++++++++++++++++++++++++++++++++
+
+// const title = 'Top 10 Benefits of React Framework';
+
+// const slug = title.toLowerCase().split(' ').join('-');
+
+// console.log(slug);
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+// const slugify = (string) => {
+//   const normalizedTitle = string.toLowerCase();
+//   const words = normalizedTitle.split(' ');
+//   const slug = words.join('-');
+
+//   return slug;
+// };
 // console.log(slugify('Top 10 Benefits of React Framework'));
-// console.log(slugify('Lorem ipsum, dolor sit amet .'));
-// console.log(slugify('Lorem ipsum, dolor sit amet.'));
+// console.log(slugify('Lorem ipsum, dolor sit aet .'));
+// console.log(slugify('Lorem ipsum, dolor sit aet.'));
 
-// !!!!!!!
-// !!!!!!
-// !!!!!!!
+// ++++++++++++++++++++++++++++++++++
+
+// const slugify = string => {
+//   return string.toLowerCase().split(' ').join('-');
+// };
+// console.log(slugify('Top 10 Benefits of React Framework'));
+// console.log(slugify('Lorem ipsum, dolor sit aet .'));
+// console.log(slugify('Lorem ipsum, dolor sit aet.'));
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+//                            Array  &  Array.from   &  args
 
 // const fn = function () {
 //   console.log(arguments);
 
 //   const args = Array.from(arguments);
-
 //   console.log(args);
 // };
 // fn(3, 5, 90, 65);
 // fn(55, 61, 69);
 // fn(11, 43, 61, 23);
 
-// !!!!!
-// !!!!!!
-// !!!!!
+// ++++++++++++++++++++++++++++++  операция rest=(...args)
 
-// const fn = function (...args) {
+// const fn = (...args) => {
 //   console.log(args);
 // };
-// fn('hello', 1, 2, 3);
+// fn('hello', 1, 2, 3, 4, 5, 6, 7);
 // fn('aloha', 4, 5, 6, 7);
 // fn('Ой Бой', 8, 9);
 
-// !!!!!
-// !!!!!
-// !!!!!
+// ++++++++++++++++++++++++++++++++++++++++
 
-// const add = function (...args) {
+// const fn = (a, b, c, ...args) => {
+//   console.log(`${a} ${b} ${c}`);
+//   console.log(args);
+// };
+// fn('hello', 1, 2, 3, 4, 5, 6, 7);
+// fn('aloha', 4, 5, 6, 7);
+// fn('Ой Бой', 8, 9);
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+//                             плюсуем аргументы
+
+// const add = (...args) => {
 //   console.log(args);
 //   let total = 0;
 
 //   for (const arg of args) {
 //     total += arg;
 //   }
+
 //   return total;
 // };
+
 // console.log(add(1, 2, 56, 77, 94));
 // console.log(add(12, 21, 62, 7, 34));
 // console.log(add(11, 20, 36, 37, 94));
 
-// !!!!!
-// !!!!!
-// !!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-// const filterNumbers = function (array, ...args) {
+// const filterNumbers = (array, ...args) => {
 //   console.log('array', array);
 //   console.log('args', args);
 //   const uniqueElements = [];
@@ -245,10 +288,13 @@ console.log(slugify('Lorem ipsum, dolor sit amet.'));
 //       console.log(`${element} есть везде!`);
 //     }
 //   }
+
 //   return uniqueElements;
 // };
 
-// console.log(filterNumbers([1, 2, 3, 4, 5], 3, 33, 44, 55));
-// console.log(filterNumbers([1, 2, 3, 4], 86, 12, 4, 475));
-// console.log(filterNumbers([1, 2, 3, 4], 86, 12, 2, 475));
+// console.log(filterNumbers([1, 2, 3, 4, 5], 3, 33, 44, 1, 55));
+// console.log(filterNumbers([1, 2, 3, 4], 86, 12, 3, 4, 475));
+// console.log(filterNumbers([1, 2, 3, 4], 86, 12, 2, 3, 475));
 // console.log(filterNumbers([1, 2, 3, 4], 1, 12, 103, 475));
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
