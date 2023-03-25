@@ -1,27 +1,40 @@
+//
+//
+
+//                       Урок Номер 4 Открыт
+
+//
+//
+
 // const add = function (a, b) {
 //   console.log(a);
 //   console.log(b);
 
 //   const result = a * b;
-//   console.log('a+b:', result);
+//   console.log('a * b:', result);
 //   console.log('Выполняется функция add');
+
+//   return result;
 // };
 // add(40, 9);
 // add(22, 4);
 // add(54, 76);
-// !!!!
-// !!!!
+
+// !!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!
+
 // const fn = function () {
 //   console.log(1);
 //   console.log(2);
 //   console.log(3);
 
-//   return 'Fuck you';
+//   return 'Hello You';
 // };
 // console.log('Результат:', fn());
 
-// !!!!!
-// !!!!!
+// !!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!
+
 // const fnA = function () {
 //   console.log('Выполняется функция А');
 // };
@@ -31,25 +44,26 @@
 // const fnC = function () {
 //   console.log('Выполняется функция C');
 // };
+
 // fnA();
 // fnB();
 // fnC();
 
-// !!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!
 
-// const cart = [8, 7, 50, 434, 11, 45, 66, 93];
-// let total = 0;
+const cart = [8, 7, 50, 34, 11, 45, 66, 93];
+let total = 0;
 
-// for (const value of cart) {
-//   total += value;
-// }
+for (const value of cart) {
+  total += value;
+}
 
-// console.log('Total:', total);
-// !!!!!!
-// !!!!!!
-// !!!!!!
+console.log('Total:', total);
+
+// !!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!
+
 // const calculateTotalPrice = function (items) {
 //   console.log('item внутри функции:', items);
 //   let total = 0;
