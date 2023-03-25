@@ -52,14 +52,14 @@
 // !!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!
 
-const cart = [8, 7, 50, 34, 11, 45, 66, 93];
-let total = 0;
+// const cart = [8, 7, 50, 34, 11, 45, 66, 93];
+// let total = 0;
 
-for (const value of cart) {
-  total += value;
-}
+// for (const value of cart) {
+//   total += value;
+// }
 
-console.log('Total:', total);
+// console.log('Total:', total);
 
 // !!!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!!
@@ -67,16 +67,20 @@ console.log('Total:', total);
 // const calculateTotalPrice = function (items) {
 //   console.log('item внутри функции:', items);
 //   let total = 0;
+
 //   for (const item of items) {
 //     total += item;
 //   }
 //   return total;
 // };
+
 // console.log(calculateTotalPrice([1, 2, 3]));
 // console.log(calculateTotalPrice([10, 20, 30]));
 // console.log(calculateTotalPrice([100, 200, 300]));
-// !!!!!!!/
-// !!!!!!!
+
+// !!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!
+
 // const logItems = function (items) {
 //   for (const item of items) {
 //     console.log(item);
@@ -85,9 +89,10 @@ console.log('Total:', total);
 // logItems([2, 3, 6, 77, 9]);
 // logItems(['Poly', 'Ajax', 'Jax', 'Max']);
 // logItems(['Наушники', 'Часы', 'Очки']);
-// !!!!!!!
-// !!!!!!
-// !!!!!!
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 // const logins = ['Naruto', 'Soro', 'Bono'];
 // const loginToFind = 'Bono';
 
@@ -96,9 +101,9 @@ console.log('Total:', total);
 //   : `Пользователь ${loginToFind} не найден. `;
 
 // console.log(message);
-// !!!!!!!!!
-// !!!!!!!!!
-// !!!!!!!!!
+
+// ++++++++++++++++++++++++++++++++++++++++++++++
+
 // const logins = ['Naruto', 'Soro', 'Bono'];
 // const findLogin = function (allLogins, loginToFind) {
 //   for (const login of allLogins) {
@@ -106,15 +111,17 @@ console.log('Total:', total);
 //       return `Пользователь ${loginToFind} найден. `;
 //     }
 //   }
+
 //   return `Пользователь ${loginToFind} не найден. `;
 // };
+
 // console.log(findLogin(logins, 'Nara'));
 // console.log(findLogin(logins, 'Naruto'));
 // console.log(findLogin(logins, 'Soro'));
 // console.log(findLogin(logins, 'Bono'));
-// !!!!!!
-// !!!!!!!
-// !!!!!!!
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++
+
 // const logins = ['Naruto', 'Soro', 'Bono'];
 
 // const findLogin = function (allLogins, loginToFind) {
@@ -127,41 +134,62 @@ console.log('Total:', total);
 // console.log(findLogin(logins, 'Naruto'));
 // console.log(findLogin(logins, 'Soro'));
 // console.log(findLogin(logins, 'Bono'));
-// !!!!!!
-// !!!!!!!
-// !!!!!!!!
-// const title = 'Top 10 Benefits of React Framework';
 
-// const normalizedTitle = title.toLowerCase();
-// const words = normalizedTitle.split(' ');
-// const slug = words.join('-');
+// !!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!
 
-// const slug1 = title.toLowerCase().split(' ').join('-');
+// const findSmallesNumber = numbers => {
+//   let smallestNumber = numbers[0];
 
-// console.log(slug1);
+//   for (const number of numbers) {
+//     if (number < smallestNumber) {
+//       smallestNumber = number;
+//     }
+//   }
 
-// const slugify = function (string) {
+//   return smallestNumber;
+// };
 
-// const normalizedTitle = strimg.toLowerCase();
-// const words = normalizedTitle.split(' ');
-// const slug = words.join('-');
+// console.log(findSmallesNumber([20, 30, 4, 50, 60]));
+// console.log(findSmallesNumber([200, 300, 60]));
+// console.log(findSmallesNumber([2, 3, 4, 5, -6]));
 
-// }
-// console.log(slugify('Top 10 Benefits of React Framework'));
-// console.log(slugify('Lorem ipsum, dolor sit amet .'));
-// console.log(slugify('Lorem ipsum, dolor sit amet.'));
-// !!!!!
-// !!!!!
-// !!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!
+// 1!!!!!!!!!!!!!!!!!!!!!
+
+const title = 'Top 10 Benefits of React Framework';
+
+const normalizedTitle = title.toLowerCase();
+const words = normalizedTitle.split(' ');
+const slug = words.join('-');
+
+const slug1 = title.toLowerCase().split(' ').join('-');
+
+console.log(slug1);
+
+const slugify = function (string) {
+  const normalizedTitle = string.toLowerCase();
+  const words = normalizedTitle.split(' ');
+  const slug = words.join('-');
+};
+console.log(slugify('Top 10 Benefits of React Framework'));
+console.log(slugify('Lorem ipsum, dolor sit amet .'));
+console.log(slugify('Lorem ipsum, dolor sit amet.'));
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 // const slugify = function (string) {
 //    return string.toLowerCase().split(' ').join('-');
 // }
 // console.log(slugify('Top 10 Benefits of React Framework'));
 // console.log(slugify('Lorem ipsum, dolor sit amet .'));
 // console.log(slugify('Lorem ipsum, dolor sit amet.'));
+
 // !!!!!!!
 // !!!!!!
 // !!!!!!!
+
 // const fn = function () {
 //   console.log(arguments);
 
@@ -172,18 +200,22 @@ console.log('Total:', total);
 // fn(3, 5, 90, 65);
 // fn(55, 61, 69);
 // fn(11, 43, 61, 23);
+
 // !!!!!
 // !!!!!!
 // !!!!!
+
 // const fn = function (...args) {
 //   console.log(args);
 // };
 // fn('hello', 1, 2, 3);
 // fn('aloha', 4, 5, 6, 7);
 // fn('Ой Бой', 8, 9);
+
 // !!!!!
 // !!!!!
 // !!!!!
+
 // const add = function (...args) {
 //   console.log(args);
 //   let total = 0;
@@ -196,9 +228,11 @@ console.log('Total:', total);
 // console.log(add(1, 2, 56, 77, 94));
 // console.log(add(12, 21, 62, 7, 34));
 // console.log(add(11, 20, 36, 37, 94));
+
 // !!!!!
 // !!!!!
 // !!!!!
+
 // const filterNumbers = function (array, ...args) {
 //   console.log('array', array);
 //   console.log('args', args);
