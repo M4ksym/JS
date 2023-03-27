@@ -98,40 +98,40 @@
 // !!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!
 
-const playlist = {
-  name: 'My playlist',
-  rating: 4,
-  tracks: ['Трек-1', 'Трек-2', 'Трек-3'],
-  trackCount: '',
-  changeName(newName) {
-    // console.log(this);
-    this.name = newName;
-  },
-  addtrack(track) {
-    this.tracks.push(track);
-    this.trackCount = this.tracks.length;
-  },
-  updateRating(newRating) {
-    this.rating = newRating;
-  },
-};
+// const playlist = {
+//   name: 'My playlist',
+//   rating: 5,
+//   tracks: ['Трек-1', 'Трек-2', 'Трек-3'],
+//   trackCount: 1,
+//   changeName(newName) {
+//     this.name = newName;
+//   },
+//   addtrack(track) {
+//     this.tracks.push(track);
+//   },
+//   updateRating(newRating) {
+//     this.rating = newRating;
+//   },
+// };
 
-playlist.changeName('New Name');
+// playlist.changeName('New Name');
 
-playlist.addtrack('New track');
+// playlist.addtrack('New track');
 
-playlist.updateRating(1);
+// playlist.updateRating(1);
 
-console.log(playlist);
+// console.log(playlist);
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!!!!!
 
+//                                Object.keys
 // const feedback = {
 //   good: 5,
 //   neutral: 10,
-//   bad: 99,
+//   bad: 3,
 // };
+
 // let totalFeedback = 0;
 
 // const keys = Object.keys(feedback);
@@ -143,11 +143,13 @@ console.log(playlist);
 
 //   totalFeedback += feedback[key];
 
-//   console.log('totalFeedback', totalFeedback);
+//   console.log('totalFeedback :', totalFeedback);
 // }
 
-// !!!!!!
-// !!!!!!
+// +++++++++++++++++++++++++++++++++++++++++=
+
+//                       Object.values
+
 // const feedback = {
 //   good: 5,
 //   neutral: 10,
@@ -163,11 +165,11 @@ console.log(playlist);
 
 //   totalFeedback += value;
 // }
-// console.log('totalFeedback', totalFeedback);
+// console.log('totalFeedback :', totalFeedback);
 
-// !!!!!!
-// !!!!!!
-// !!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!!
+
 // const friends = [
 //   { name: 'Mango', online: false },
 //   { name: 'Kiwi', online: true },
@@ -178,14 +180,15 @@ console.log(playlist);
 // console.table(friends);
 
 // for (const friend of friends) {
-//   console.log(friend);
+//   console.log(friend.name);
 
 //   friend.newprop = 555;
 // }
 
 // console.table(friends);
-// !!!!!
-// !!!!!
+
+// !!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!
 
 // const friends = [
 //   { name: 'Mango', online: false },
@@ -198,17 +201,20 @@ console.log(playlist);
 
 // const findFriendByName = function (allFriends, name) {
 //   for (const friend of allFriends) {
-//     console.log(friend);
 //     console.log(friend.name);
 
 //     if (friend.name === name) {
-//       return 'Да,Вот Он';
+//       return 'Да , Вот Он';
 //     }
 //   }
+//   return 'Такого Друга Нет';
 // };
-// console.log(findFriendByName(friends, 'Poly'));
-// !!!!!
-// !!!!!
+
+// console.log(findFriendByName(friends, 'Ki'));
+
+// !!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!
+
 // const friends = [
 //   { name: 'Mango', online: false },
 //   { name: 'Kiwi', online: true },
@@ -231,16 +237,15 @@ console.log(playlist);
 // };
 // console.log(getAllNames(friends));
 
-// !!!!!!
-// !!!!!!!
-// !!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!
 
 // const friends = [
-//   { name: 'Mango', online: true },
+//   { name: 'Mango', online: false },
 //   { name: 'Kiwi', online: true },
 //   { name: 'Poly', online: true },
 //   { name: 'Ajax', online: false },
-//   { name: 'Jack', online: true },
+//   { name: 'Jack', online: false },
 //   { name: 'Jax', online: true },
 // ];
 
@@ -250,7 +255,7 @@ console.log(playlist);
 //   const onlineFriends = [];
 
 //   for (const friend of allFriends) {
-//     console.log(friend);
+//     // console.log(friend);
 //     console.log(friend.online);
 
 //     if (friend.online) {
@@ -261,6 +266,34 @@ console.log(playlist);
 // };
 
 // console.log(getAllNames(friends));
+
+// +++++++++++++++++++++++++++++++++++++++
+
+// const friends = [
+//   { name: 'Mango', online: false },
+//   { name: 'Kiwi', online: true },
+//   { name: 'Poly', online: true },
+//   { name: 'Ajax', online: false },
+//   { name: 'Jack', online: false },
+//   { name: 'Jax', online: true },
+// ];
+
+// console.table(friends);
+
+// const getOfflineFriends = function (allFriends) {
+//   const offlineFriends = [];
+
+//   for (const friend of allFriends) {
+//     console.log(friend.online);
+
+//     if (!friend.online) {
+//       offlineFriends.push(friend);
+//     }
+//   }
+//   return offlineFriends;
+// };
+
+// console.log(getOfflineFriends(friends));
 
 // -------
 // -------
