@@ -51,17 +51,17 @@
 
 // +++++++++++++++++++++++++++++++++++++
 
-const username = 'Mango';
-const email = 'mango@gmaol.com';
+// const username = 'Mango';
+// const email = 'mango@gmaol.com';
 
-const signupData = {
-  username,
-  email,
-};
-console.log(signupData);
+// const signupData = {
+//   username,
+//   email,
+// };
+// console.log(signupData);
 
-// !!!!!!!!
-// !!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 // const inputName = 'color';
 // const inputValue = 'tomato';
@@ -71,18 +71,23 @@ console.log(signupData);
 // };
 // console.log(colorPickerData);
 
-// !!!!!!!!
-// !!!!!!!!!
-// !!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!
+
+// console.log([] === []);
+// console.log({} === {});
 
 // const a = { x: 1, y: 1 };
 // const b = a;
 
-// console.log(a === b);
+// a.c = 10;
 
-// 1!!!!!!
-// !!!!!!!
-// !!!!!!
+// console.log(a === b);
+// console.log(a);
+// console.log(b);
+
+// !!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!
 
 // const a = [1, 2, 3, 4];
 
@@ -90,38 +95,37 @@ console.log(signupData);
 
 // console.log(a);
 
-// !!!!!!
-// !!!!!!
-// !!!!!!
+// !!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!
 
-// const playlist = {
-//   name: 'My playlist',
-//   rating: 4,
-//   tracks: ['Трек-1', 'Трек-2', 'Трек-3'],
-//   trackCount: 3,
-//   changeName(newName) {
-//     // console.log(this);
-//     this.name = newName;
-//   },
-//   addtrack(track) {
-//     this.tracks.push(track);
-//   },
-//   updateRating(newRating) {
-//     this.rating = newRating;
-//   },
-// };
+const playlist = {
+  name: 'My playlist',
+  rating: 4,
+  tracks: ['Трек-1', 'Трек-2', 'Трек-3'],
+  trackCount: '',
+  changeName(newName) {
+    // console.log(this);
+    this.name = newName;
+  },
+  addtrack(track) {
+    this.tracks.push(track);
+    this.trackCount = this.tracks.length;
+  },
+  updateRating(newRating) {
+    this.rating = newRating;
+  },
+};
 
-// playlist.changeName('New Name');
+playlist.changeName('New Name');
 
-// playlist.addtrack('New track');
+playlist.addtrack('New track');
 
-// playlist.updateRating(1);
+playlist.updateRating(1);
 
-// console.log(playlist);
+console.log(playlist);
 
-// !!!!!!!!
-// !!!!!!!
-// !!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!
 
 // const feedback = {
 //   good: 5,
