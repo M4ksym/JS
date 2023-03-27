@@ -11,9 +11,7 @@
 
 // console.log(playlist);
 
-// !!!!!!
-// !!!!!
-// !!!!!!
+// +++++++++++++++++++++++++++++++++
 
 // const playlist = {
 //   name: 'My playlits',
@@ -26,9 +24,7 @@
 // console.log(playlist.name);
 // console.log(playlist.trackCount);
 
-// !!!!!
-// !!!!!
-// !!!!!
+// ++++++++++++++++++++++++++++++++++++++
 
 // const playlist = {
 //   name: 'My playlits',
@@ -39,10 +35,11 @@
 // const propertyName = 'tracks';
 
 // console.log(playlist[propertyName]);
+// console.log(playlist.propertyName);
 
-// !!!!!!
-// !!!!!
-// !!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 // const username = 'Mango';
 // const email = 'mango@gmaol.com';
 
@@ -52,17 +49,16 @@
 // };
 // console.log(signupData);
 
-// !!!!!!!
-// !!!!!!
+// +++++++++++++++++++++++++++++++++++++
 
-// const username = 'Mango';
-// const email = 'mango@gmaol.com';
+const username = 'Mango';
+const email = 'mango@gmaol.com';
 
-// const signupData = {
-//   username,
-//   email,
-// };
-// console.log(signupData);
+const signupData = {
+  username,
+  email,
+};
+console.log(signupData);
 
 // !!!!!!!!
 // !!!!!!!
