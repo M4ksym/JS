@@ -98,31 +98,33 @@
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-const playlist = {
-  name: 'My playlist',
-  rating: 4,
-  tracks: ['Трек-1', 'Трек-2', 'Трек-3'],
-  trackCount: '',
-  changeName(newName) {
-    // console.log(this);
-    this.name = newName;
-  },
-  addtrack(track) {
-    this.tracks.push(track);
-    this.trackCount = this.tracks.length;
-  },
-  updateRating(newRating) {
-    this.rating = newRating;
-  },
-};
+// const playlist = {
+//   name: 'My playlist',
+//   rating: 4,
+//   tracks: ['Трек-1', 'Трек-2', 'Трек-3'],
+//   trackCount: '',
+//   changeName(newName) {
+//     // console.log(this);
+//     this.name = newName;
+//   },
+//   addtrack(track) {
+//     this.tracks.push(track);
+//     this.trackCount = this.tracks.length;
+//   },
+//   updateRating(newRating) {
+//     this.rating = newRating;
+//   },
+// };
 
-playlist.changeName('New Name');
+// playlist.changeName('New Name');
 
-playlist.addtrack('New track');
+// playlist.addtrack('New track');
 
-playlist.updateRating(1);
+// playlist.updateRating(1);
 
-console.log(playlist);
+// console.log(playlist);
+
+console.log(9 % 3);
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!!!!!
