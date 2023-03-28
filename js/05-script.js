@@ -266,6 +266,34 @@
 
 // +++++++++++++++++++++++++++++++++++++++++
 
+// const friends = [
+//   { name: 'Mango', online: true },
+//   { name: 'Kiwi', online: false },
+//   { name: 'Poly', online: true },
+//   { name: 'Ajax', online: false },
+//   { name: 'Jack', online: false },
+//   { name: 'Jax', online: false },
+// ];
+
+// console.table(friends);
+
+// const getOfflineFriends = function (allFriends) {
+//   const offlineFriends = [];
+
+//   for (const friend of allFriends) {
+//     console.log(friend.online);
+
+//     if (!friend.online) {
+//       offlineFriends.push(friend);
+//     }
+//   }
+//   return offlineFriends;
+// };
+
+// console.log(getOfflineFriends(friends));
+
+// +++++++++++++++++++++++++++++++++
+
 const friends = [
   { name: 'Mango', online: true },
   { name: 'Kiwi', online: false },
@@ -277,20 +305,23 @@ const friends = [
 
 console.table(friends);
 
-const getOfflineFriends = function (allFriends) {
-  const offlineFriends = [];
+const getFriendsByOnlineStatus = function (allFriends) {
+  const friendsByStatus = {
+    online: [],
+    offline: [],
+  };
 
   for (const friend of allFriends) {
-    console.log(friend.online);
-
-    if (!friend.online) {
-      offlineFriends.push(friend);
+    if (friend.online) {
+      friendsByStatus.online.push(friend);
     }
+    continue;
+    friendsByStatus.offline.push(friend);
   }
-  return offlineFriends;
+  return friendsByStatus;
 };
 
-console.log(getOfflineFriends(friends));
+console.log(getFriendsByOnlineStatus(friends));
 
 // -------
 // -------
