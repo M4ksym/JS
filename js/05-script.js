@@ -294,57 +294,70 @@
 
 // +++++++++++++++++++++++++++++++++
 
-const friends = [
-  { name: 'Mango', online: true },
-  { name: 'Kiwi', online: false },
-  { name: 'Poly', online: true },
-  { name: 'Ajax', online: false },
-  { name: 'Jack', online: false },
-  { name: 'Jax', online: false },
-];
+// const friends = [
+//   { name: 'Mango', online: true },
+//   { name: 'Kiwi', online: false },
+//   { name: 'Poly', online: true },
+//   { name: 'Ajax', online: false },
+//   { name: 'Jack', online: false },
+//   { name: 'Jax', online: false },
+// ];
 
-console.table(friends);
+// console.table(friends);
 
-const getFriendsByOnlineStatus = function (allFriends) {
-  const friendsByStatus = {
-    online: [],
-    offline: [],
-  };
+// const getFriendsByOnlineStatus = function (allFriends) {
+//   const friendsByStatus = {
+//     online: [],
+//     offline: [],
+//   };
 
-  for (const friend of allFriends) {
-    if (friend.online) {
-      friendsByStatus.online.push(friend);
-    }
-    continue;
-    friendsByStatus.offline.push(friend);
-  }
-  return friendsByStatus;
-};
+//   for (const friend of allFriends) {
+//     if (friend.online) {
+//       friendsByStatus.online.push(friend);
+//     }
+//     continue;
+//     friendsByStatus.offline.push(friend);
+//   }
+//   return friendsByStatus;
+// };
 
-console.log(getFriendsByOnlineStatus(friends));
+// console.log(getFriendsByOnlineStatus(friends));
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// 1!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+// const x = {
+//   a: 10,
+//   b: 4,
+//   c: 90,
+//   d: 20,
+//   e: 30,
+// };
+
+// console.log(Object.keys(x).length);
 
 // -------
 // -------
 // --------
 
-// const cart = {
-//   items: [],
-//   getItems() {},
-//   add(product) {},
-//   remove(productName) {},
-//   clear() {},
-//   countTotalPrice() {},
-//   increaseQuantity(productName) {},
-//   decreaseQuatity(productName) {},
-// };
-// console.table(cart.getItems());
+const cart = {
+  items: [],
+  getItems() {},
+  add(product) {},
+  remove(productName) {},
+  clear() {},
+  countTotalPrice() {},
+  increaseQuantity(productName) {},
+  decreaseQuantity(productName) {},
+};
+console.table(cart.getItems());
 
-// cart.add({ name: 'apple', price: 50 });
-// cart.add({ name: 'lemon', price: 70 });
-// cart.add({ name: 'pie', price: 90 });
-// cart.add({ name: 'watermelon', price: 95 });
+cart.add({ name: 'apple', price: 50 });
+cart.add({ name: 'lemon', price: 70 });
+cart.add({ name: 'pie', price: 90 });
+cart.add({ name: 'watermelon', price: 95 });
 
-// console.table(cart.getItems());
+console.table(cart.getItems());
 
 // -----------
 // -----------
