@@ -60,3 +60,17 @@
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+// const fruits = ['apple', 'peach', 'pear', 'banana'];
+// const fruitsArrayLength = fruits.length;
+// // Change code below this line
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+// const fruits = ["apple", "peach", "pear", "banana"];
+// const lastElementIndex = fruits.length - 1;
+// const lastElement = fruits[lastElementIndex];
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// 1!!!!!!!!!!!!!!!!!!!!!!!!!!
