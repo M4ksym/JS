@@ -340,25 +340,28 @@
 // -------
 // --------
 
-const cart = {
-  items: [],
-  getItems() {},
-  add(product) {},
-  remove(productName) {},
-  clear() {},
-  countTotalPrice() {},
-  increaseQuantity(productName) {},
-  decreaseQuantity(productName) {},
-};
-console.table(cart.getItems());
+// const cart = {
+//   items: [],
+//   getItems() {},
+//   add(product) {},
+//   remove(productName) {},
+//   clear() {},
+//   countTotalPrice() {},
+//   increaseQuantity(productName) {},
+//   decreaseQuantity(productName) {},
+// };
+// console.table(cart.getItems());
 
-cart.add({ name: 'apple', price: 50 });
-cart.add({ name: 'lemon', price: 70 });
-cart.add({ name: 'pie', price: 90 });
-cart.add({ name: 'watermelon', price: 95 });
+// cart.add({ name: 'apple', price: 50 });
+// cart.add({ name: 'lemon', price: 70 });
+// cart.add({ name: 'pie', price: 90 });
+// cart.add({ name: 'watermelon', price: 95 });
 
-console.table(cart.getItems());
+// console.table(cart.getItems());
 
 // -----------
 // -----------
 // -----------
+
+// верстак
+// OpenCard CMS
