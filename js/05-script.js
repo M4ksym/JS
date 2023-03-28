@@ -124,15 +124,13 @@
 
 // console.log(playlist);
 
-// console.log(9 % 3); 000555050505055550505005
-
 // !!!!!!!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!!!!!
 
 // const feedback = {
 //   good: 5,
 //   neutral: 10,
-//   bad: 99,
+//   bad: 3,
 // };
 // let totalFeedback = 0;
 
@@ -148,8 +146,8 @@
 //   console.log('totalFeedback', totalFeedback);
 // }
 
-// !!!!!!
-// !!!!!!
+// ++++++++++++++++++++++++++++++++++++++++
+
 // const feedback = {
 //   good: 5,
 //   neutral: 10,
@@ -167,9 +165,9 @@
 // }
 // console.log('totalFeedback', totalFeedback);
 
-// !!!!!!
-// !!!!!!
-// !!!!!!
+// !!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!
+
 // const friends = [
 //   { name: 'Mango', online: false },
 //   { name: 'Kiwi', online: true },
@@ -186,8 +184,9 @@
 // }
 
 // console.table(friends);
-// !!!!!
-// !!!!!
+
+// !!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!
 
 // const friends = [
 //   { name: 'Mango', online: false },
@@ -209,8 +208,10 @@
 //   }
 // };
 // console.log(findFriendByName(friends, 'Poly'));
-// !!!!!
-// !!!!!
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 // const friends = [
 //   { name: 'Mango', online: false },
 //   { name: 'Kiwi', online: true },
@@ -233,9 +234,8 @@
 // };
 // console.log(getAllNames(friends));
 
-// !!!!!!
-// !!!!!!!
-// !!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 // const friends = [
 //   { name: 'Mango', online: true },
@@ -263,6 +263,34 @@
 // };
 
 // console.log(getAllNames(friends));
+
+// +++++++++++++++++++++++++++++++++++++++++
+
+const friends = [
+  { name: 'Mango', online: true },
+  { name: 'Kiwi', online: false },
+  { name: 'Poly', online: true },
+  { name: 'Ajax', online: false },
+  { name: 'Jack', online: false },
+  { name: 'Jax', online: false },
+];
+
+console.table(friends);
+
+const getOfflineFriends = function (allFriends) {
+  const offlineFriends = [];
+
+  for (const friend of allFriends) {
+    console.log(friend.online);
+
+    if (!friend.online) {
+      offlineFriends.push(friend);
+    }
+  }
+  return offlineFriends;
+};
+
+console.log(getOfflineFriends(friends));
 
 // -------
 // -------
