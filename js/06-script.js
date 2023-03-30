@@ -1,103 +1,15 @@
-//  const cart = {
-//   items: [],
-//   getItems() {
-//     return this.items;
-//   },
-//   add(product) {
-//     for (const item of this.items) {
-//       if (item.name === product.name) {
-//         item.quantity += 1;
-//         return;
-//       }
-//     }
-
-//     const newProduct = {
-//       ...product,
-//       quantity: 1,
-//     };
-
-//     this.items.push(newProduct);
-//   },
-//   remove(productName) {
-//     const { items } = this;
-
-//     for (let i = 0; i < items.length; i += 1) {
-//       const { name } = items[i];
-
-//       if (productName === name) {
-//         console.log('Hашли продукт -', productName);
-//         console.log(i);
-
-//         items.splice(i, 1);
-//       }
-//     }
-//   },
-
-//   clear() {
-//     this.items = [];
-//   },
-//   countTotalPrice() {
-//     const { items } = this;
-
-//     let total = 0;
-
-//     for (const { price, quantity } of items) {
-//       total += price * quantity;
-//     }
-
-//     return total;
-//   },
-
-//   increaseQuantity(productName) {},
-//   decreaseQuatity(productName) {},
-// };
-// console.log(cart.getItems());
-
-// cart.add({ name: 'apple', price: 50 });
-// cart.add({ name: 'apple', price: 50 });
-// cart.add({ name: 'lemon', price: 70 });
-// cart.add({ name: 'lemon', price: 70 });
-// cart.add({ name: 'pie', price: 85 });
-// cart.add({ name: 'watermelon', price: 95 });
-// cart.add({ name: 'watermelon', price: 95 });
-// cart.add({ name: 'watermelon', price: 95 });
-
-// console.table(cart.getItems());
-
-// console.log('Total:', cart.countTotalPrice());
-
-// cart.remove('pie');
-// console.table(cart.getItems());
-
-// console.log('Total:', cart.countTotalPrice());
-
-// cart.clear();
-// console.log(cart.getItems());
-
-// !!!!!!!!!!!!!!!!!
-
-// !!!!!!!!!!!!!!!!!
-
-// !!!!!!!!
-
-// !!!!!!!!!
-
-// !!!!!!!!!
-
-// const rgb = [200, 255, 100];
-// let red, green, blue;
-
-// [red, green, blue] = rgb;
-
-// console.log(`R:${red},G:${green},B:${blue}`);
+//
+//                   урок номер 6 , модуль 3
+//
+//
 
 // !!!!!!!!
 // !!!!!!!
 
-//  SPREAD !!!!!
+//                            SPREAD !!!!! CONCAT
 
-// const numbers = [1, 2, 3].concat([4, 5, 6], [7, 8, 9, 0]);
-// console.log(numbers);
+const numbers = [1, 2, 3].concat([4, 5, 6], [7, 8, 9, 0]);
+console.log(numbers);
 
 // !!!!!!!!
 
@@ -270,3 +182,91 @@
 // !!!!!
 // !!!!!!
 // !!!!!!!!
+
+// const cart = {
+//   items: [],
+//   getItems() {
+//     return this.items;
+//   },
+//   add(product) {
+//     for (const item of this.items) {
+//       if (item.name === product.name) {
+//         item.quantity += 1;
+//         return;
+//       }
+//     }
+
+//     // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+//     const newProduct = {
+//       ...product,
+//       quantity: 1,
+//     };
+
+//     this.items.push(newProduct);
+//   },
+//   remove(productName) {
+//     const { items } = this;
+
+//     for (let i = 0; i < items.length; i += 1) {
+//       const { name } = items[i];
+
+//       if (productName === name) {
+//         console.log('Hашли продукт -', productName);
+//         console.log(i);
+
+//         items.splice(i, 1);
+//       }
+//     }
+//   },
+
+//   clear() {
+//     this.items = [];
+//   },
+//   countTotalPrice() {
+//     const { items } = this;
+
+//     let total = 0;
+
+//     for (const { price, quantity } of items) {
+//       total += price * quantity;
+//     }
+
+//     return total;
+//   },
+
+//   increaseQuantity(productName) {},
+//   decreaseQuantity(productName) {},
+// };
+// console.log(cart.getItems());
+
+// cart.add({ name: 'apple', price: 50 });
+// cart.add({ name: 'apple', price: 50 });
+// cart.add({ name: 'lemon', price: 70 });
+// cart.add({ name: 'lemon', price: 70 });
+// cart.add({ name: 'pie', price: 85 });
+// cart.add({ name: 'watermelon', price: 95 });
+// cart.add({ name: 'watermelon', price: 95 });
+// cart.add({ name: 'watermelon', price: 95 });
+
+// console.table(cart.getItems());
+
+// console.log('Total:', cart.countTotalPrice());
+
+// cart.remove('pie');
+// console.table(cart.getItems());
+
+// console.log('Total:', cart.countTotalPrice());
+
+// cart.clear();
+// console.log(cart.getItems());
+
+// !!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!
+
+// const rgb = [200, 255, 100];
+// let red, green, blue;
+
+// [red, green, blue] = rgb;
+
+// console.log(`R:${red},G:${green},B:${blue}`);
