@@ -67,81 +67,42 @@
 
 // console.log(c);
 
-// !!!!!!!
-// !!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!
 
-const playlist = {
-  name: 'My playlits',
-  rating: 4,
-  tracks: ['Трек-1', 'Трек-2', 'Трек-3'],
-  trackCount: 3,
+// const playlist = {
+//   name: 'My playlits',
+//   rating: 4,
+//   tracks: ['Трек-1', 'Трек-2', 'Трек-3'],
+//   trackCount: 3,
+// };
+
+// const { name, rating, tracks, trackCount } = playlist;
+
+// console.log(name, rating, tracks, trackCount);
+
+// !!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!
+
+const profile = {
+  name: 'Jacques Gluke',
+  tag: '#jgluke',
+  location: 'Jamaica',
+  avatar: './jss/images/img.jpg',
+  stats: {
+    followers: 5603,
+    views: 4827,
+    likes: 1308,
+  },
 };
+const { name, tag, location, avatar, stats } = profile;
 
-const { name, rating, tracks, trackCount } = playlist;
+const { followers, views, likes } = stats;
 
-console.log(name, rating, tracks, trackCount);
+console.log(name, tag, location, avatar, followers, views, likes);
 
-// !!!!!!!!!!!!!!!!!!!!!!!!
-// 1!!!!!!!!!!!!!!!!!!!!!!!!
-
-// const rgb = [255, 50, 50];
-
-// const [red, green, blue] = rgb;
-
-// console.log(red, green, blue);
-
-// !!!!!!
-// !!!!!!
-
-// const authors = {
-//   kiwi: 4,
-//   poly: 6,
-//   ajax: 9,
-//   bob: 5,
-// };
-
-//++++++++++++++++++++++++++++
-
-// const entries = Object.entries(authors);
-
-// for (const entry of entries) {
-//   const name = entry[0];
-//   const rating = entry[1];
-
-//   console.log(name, rating);
-// }
-
-//+++++++++++++++++++++++++++++++++
-
-// const entries = Object.entries(authors);
-
-// for (const [name, rating] of entries) {
-//   console.log(name, rating);
-// }
-
-// !!!!!!!!
-// !!!!!!!!
-// !!!!!!!
-
-// const profile = {
-//   name: 'Jacques Gluke',
-//   tag: 'jgluke',
-//   location: 'Jamaica',
-//   avatar: './jss/images/img.jpg',
-//   stats: {
-//     followers: 5603,
-//     views: 4827,
-//     likes: 1308,
-//   },
-// };
-// const { name, tag, location, avatar, stats } = profile;
-
-// const { followers, views, likes } = stats;
-
-// console.log(name, tag, location, avatar, followers, views, likes);
-
-// !!!!!!!!
-// !!!!!!!
+// !!!
+// !!!
 
 // const profile = {
 //   name: 'Jacques Gluke',
@@ -268,8 +229,8 @@ console.log(name, rating, tracks, trackCount);
 // cart.clear();
 // console.log(cart.getItems());
 
-// !!!!!!!!!!!!!!!!!!!!!!!
-// !!!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!========
+// !!!!!!!!!!!!!!!!!!!!!!!=========
 
 // const rgb = [200, 255, 100];
 // let red, green, blue;
@@ -277,3 +238,46 @@ console.log(name, rating, tracks, trackCount);
 // [red, green, blue] = rgb;
 
 // console.log(`R:${red},G:${green},B:${blue}`);
+
+// !!!!!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!!!!!
+
+// const authors = {
+//   kiwi: 4,
+//   poly: 6,
+//   ajax: 9,
+//   bob: 5,
+// };
+
+// const entries = Object.entries(authors);
+
+// for (const entry of entries) {
+//   const name = entry[0];
+//   const rating = entry[1];
+
+//   console.log(name, rating);
+// }
+
+//+++++++++++++++++++++++++++++++++
+
+// const authors = {
+//   kiwi: 4,
+//   poly: 6,
+//   ajax: 9,
+//   bob: 5,
+// };
+
+// const entries = Object.entries(authors);
+
+// for (const [name, rating] of entries) {
+//   console.log(name, rating);
+// }
+
+// !!!!!!!!!!!!!!!!!!!!!!!!
+// 1!!!!!!!!!!!!!!!!!!!!!!!!
+
+// const rgb = [255, 50, 50];
+
+// const [red, green, blue] = rgb;
+
+// console.log(red, green, blue);
