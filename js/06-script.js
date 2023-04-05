@@ -46,15 +46,14 @@
 // !!!!!!!!!!!!!!!!!!
 // 1!!!!!!!!!!!!!!!!
 
-const a = { x: 4, z: 2, y: 3 };
-const b = { x: 1, y: 2 };
+// const a = { x: 4, z: 2, y: 3, e: 10 };
+// const b = { x: 1, y: 2 };
 
-const c = Object.assign({}, a, b);
+// const c = Object.assign({}, a, b);
 
-console.log(c);
+// console.log(c);
 
-// !!!!!!!!!!!!!!!!
-// !!!!!!!!!!!!!!!
+// ++++++++++++++++++++++++++++++
 
 // const a = { x: 4, z: 2, e: 3 };
 // const b = { x: 1, y: 2 };
@@ -71,6 +70,20 @@ console.log(c);
 // !!!!!!!
 // !!!!!!!
 
+const playlist = {
+  name: 'My playlits',
+  rating: 4,
+  tracks: ['Трек-1', 'Трек-2', 'Трек-3'],
+  trackCount: 3,
+};
+
+const { name, rating, tracks, trackCount } = playlist;
+
+console.log(name, rating, tracks, trackCount);
+
+// !!!!!!!!!!!!!!!!!!!!!!!!
+// 1!!!!!!!!!!!!!!!!!!!!!!!!
+
 // const rgb = [255, 50, 50];
 
 // const [red, green, blue] = rgb;
@@ -86,7 +99,8 @@ console.log(c);
 //   ajax: 9,
 //   bob: 5,
 // };
-// ИЛИ ИЛИ ИЛИ ИЛИ ИЛИ ИЛИ
+
+//++++++++++++++++++++++++++++
 
 // const entries = Object.entries(authors);
 
@@ -96,28 +110,14 @@ console.log(c);
 
 //   console.log(name, rating);
 // }
-//ИЛИ ИЛИ ИЛИ ИЛИ ИЛИ ИЛИ
+
+//+++++++++++++++++++++++++++++++++
 
 // const entries = Object.entries(authors);
 
 // for (const [name, rating] of entries) {
 //   console.log(name, rating);
 // }
-
-// !!!!!!!!
-// !!!!!!!!
-// !!!!!!!!
-
-// const playlist = {
-//   name: 'My playlits',
-//   rating: 4,
-//   tracks: ['Трек-1', 'Трек-2', 'Трек-3'],
-//   trackCount: 3,
-// };
-
-// const { name, rating, tracks, trackCount } = playlist;
-
-// console.log(name, rating, tracks, trackCount);
 
 // !!!!!!!!
 // !!!!!!!!
