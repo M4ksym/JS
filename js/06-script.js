@@ -13,17 +13,16 @@
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!
 
-const numbers = [5, 6, 7, 8, 12, 13, 14, ...[1, 2, 3, 4]];
-console.log(numbers);
+// const numbers = [5, 6, 7, 8, 12, 13, 14, ...[1, 2, 3, 4]];
+// console.log(numbers);
 
 // !!!!!!!!!!!!!!!!!!
 
 // const temps = [10, 23, 35, 40, 59, 61];
 // console.log(Math.min(...temps));
 
-// !!!!!!!
-// !!!!!!
-// !!!!!!
+// !!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!
 
 // const a = [{ x: 1 }, { y: 2 }, { z: 3 }];
 // const b = [...a];
@@ -34,9 +33,8 @@ console.log(numbers);
 // console.log(a[0] === b[0]);
 // console.log(a === b);
 
-// !!!!!!!
-// 1!!!!!!!!
-// !!!!!!!\
+// 1!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!
 
 // const lastWeekTemp = [-2, -6, -3, -3];
 // const currentWeekTemp = [0, 2, 4, 2, 0];
@@ -45,9 +43,18 @@ console.log(numbers);
 // const allTemps = [...lastWeekTemp, ...currentWeekTemp, ...nextWeekTemp];
 // console.log(allTemps);
 
-// !!!!!!
-// !!!!!!
-// !!!!!!
+// !!!!!!!!!!!!!!!!!!
+// 1!!!!!!!!!!!!!!!!
+
+const a = { x: 4, z: 2, y: 3 };
+const b = { x: 1, y: 2 };
+
+const c = Object.assign({}, a, b);
+
+console.log(c);
+
+// !!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!
 
 // const a = { x: 4, z: 2, e: 3 };
 // const b = { x: 1, y: 2 };
