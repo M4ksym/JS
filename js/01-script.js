@@ -260,9 +260,9 @@
 
 // ++++++++++
 
-let brand = 'SamSung';
-brand = brand.toLowerCase();
-console.log(brand);
+// let brand = 'SamSung';
+// brand = brand.toLowerCase();
+// console.log(brand);
 
 // +++++++++++++      toUpperCase
 
