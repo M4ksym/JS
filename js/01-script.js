@@ -326,15 +326,15 @@
 // !!!!!!!!
 // !!!!!!!!!
 
-// const balance = 1000;
-// let message;
+const balance = 1000;
+let message;
 
-// if (balance > 0) {
-//   message = 'Позитивный баланс';
-// } else {
-//   message = 'Негативный баланс';
-// }
-// console.log(message);
+if (balance > 0) {
+  message = 'Позитивный баланс';
+} else {
+  message = 'Негативный баланс';
+}
+console.log(message);
 
 // !!!!!!!!!!!!!!
 // !!!!!!!!!!!!!
