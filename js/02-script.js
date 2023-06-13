@@ -28,7 +28,7 @@
 
 // +++++++++++++++++++++++++++=
 
-// const stars = 4;
+// const stars = 2;
 // let price;
 
 // switch (stars) {
@@ -54,25 +54,25 @@
 // !!!!!!!!!!!!
 // !!!!!!!!!!!!!
 
-// const option = 1;
-// let message = '';
+const option = 2;
+let message = '';
 
-// switch (option) {
-//   case 1:
-//     message = 'Вы Можете Забрать Товар из Урны';
-//     break;
+switch (option) {
+  case 1:
+    message = 'Вы Можете Забрать Товар из Урны';
+    break;
 
-//   case 2:
-//     message = 'Черт Доставит Вам Товар';
-//     break;
-//   case 3:
-//     message = 'Вам отправят товар Укр Почтой';
-//     break;
+  case 2:
+    message = 'Чёрт Доставит Вам Товар';
+    break;
+  case 3:
+    message = 'Вам отправят товар Укр Почтой';
+    break;
 
-//   default:
-//     message = 'Вам перезвонит наш Урод';
-// }
-// console.log(message);
+  default:
+    message = 'Вам перезвонит наш Урод';
+}
+console.log(message);
 
 // !!!!!!!!!!!
 // !!!!!!!!!!!!               ЦЫКЛЫ
