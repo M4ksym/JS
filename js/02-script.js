@@ -4,31 +4,31 @@
 
 // !!!!!!!!!!!!
 
-let stars = Number(prompt('Введи число до 4'));
-let price;
+// let stars = Number(prompt('Введи число звезд до 4'));
+// let price;
 
-switch (stars) {
-  case 1:
-    alert(`4$`);
-    break;
-  case 2:
-    alert(`20$`);
-    break;
-  case 3:
-    alert(`80$`);
-    break;
-  case 4:
-    alert(`250$`);
-    break;
+// switch (stars) {
+//   case 1:
+//     alert(`4$`);
+//     break;
+//   case 2:
+//     alert(`20$`);
+//     break;
+//   case 3:
+//     alert(`80$`);
+//     break;
+//   case 4:
+//     alert(`250$`);
+//     break;
 
-  default:
-    console.log('Увы Нет');
-}
-console.log(price);
+//   default:
+//     console.log(prompt('Увы Нет Такого Количества Звезд Нет'));
+// }
+// console.log(price);
 
 // +++++++++++++++++++++++++++=
 
-// const stars = 2;
+// const stars = 4;
 // let price;
 
 // switch (stars) {
