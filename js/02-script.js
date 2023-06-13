@@ -54,25 +54,25 @@
 // !!!!!!!!!!!!
 // !!!!!!!!!!!!!
 
-const option = 2;
-let message = '';
+// const option = 2;
+// let message = '';
 
-switch (option) {
-  case 1:
-    message = 'Вы можете забрать товар лично';
-    break;
+// switch (option) {
+//   case 1:
+//     message = 'Вы можете забрать товар лично';
+//     break;
 
-  case 2:
-    message = 'Курьер доставить вам товар';
-    break;
-  case 3:
-    message = 'Вам отправят товар Укр Почтой';
-    break;
+//   case 2:
+//     message = 'Курьер доставить вам товар';
+//     break;
+//   case 3:
+//     message = 'Вам отправят товар Укр Почтой';
+//     break;
 
-  default:
-    message = 'Вам перезвонит менеджер';
-}
-console.log(message);
+//   default:
+//     message = 'Вам перезвонит менеджер';
+// }
+// console.log(message);
 
 // !!!!!!!!!!!
 // !!!!!!!!!!!!               ЦЫКЛЫ
