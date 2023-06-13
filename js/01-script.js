@@ -186,26 +186,26 @@
 
 //                 задача на изменение цвета фона
 
-const colors = [
-  'tomato',
-  'teal',
-  'red',
-  'blue',
-  'yellow',
-  'black',
-  'green',
-  'grey',
-];
-const max = colors.length - 1;
-const min = 0;
+// const colors = [
+//   'tomato',
+//   'teal',
+//   'red',
+//   'blue',
+//   'yellow',
+//   'black',
+//   'green',
+//   'grey',
+// ];
+// const max = colors.length - 1;
+// const min = 0;
 
-const index = Math.round(Math.random() * (max - min) + min);
+// const index = Math.round(Math.random() * (max - min) + min);
 
-const color = colors[index];
+// const color = colors[index];
 
-console.log(color);
+// console.log(color);
 
-document.body.style.backgroundColor = color;
+// document.body.style.backgroundColor = color;
 
 // !!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!
@@ -244,8 +244,6 @@ document.body.style.backgroundColor = color;
 // console.log(typeof value); // "string"
 // console.log(value); // "5"
 
-//              вызов модального окна с подтверждением
-
 // !!!!!!!!
 // !!!!!!!!
 
@@ -253,8 +251,6 @@ document.body.style.backgroundColor = color;
 
 // const message = 'В этой строке очень много символов ?';
 // console.log(message.length);
-
-//             метот length-длинна строки
 
 // !!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!
