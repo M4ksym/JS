@@ -352,11 +352,11 @@
 
 //                           ТЕРНАРНЫЙ ОПЕРАТОР  ? :
 
-const balance = 1000;
+// const balance = 1000;
 
-let message = balance > 0 ? 'Позитивный баланс' : 'Негативный баланс';
+// let message = balance > 0 ? 'Позитивный баланс' : 'Негативный баланс';
 
-console.log(message);
+// console.log(message);
 
 //                          ТЕРНАРНЫЙ ОПЕРАТОР
 
@@ -377,3 +377,21 @@ console.log(message);
 
 // const isSidebarOpen = false;
 // console.log(typeof isSidebarOpen); // "boolean"
+
+// !!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!
+
+// const c = 4;
+
+// if (true) {
+//   const b = 3;
+//   console.log(b);
+// }
+
+// if (true) {
+//   const a = 1;
+//   console.log(c);
+//   console.log(a);
+// }
+
+// __________________________________________
