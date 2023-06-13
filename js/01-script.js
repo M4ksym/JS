@@ -273,13 +273,33 @@
 // !!!!!!!!!!!
 // !!!!!!!!!!!
 
+// const blacklistedWord1 = 'спам';
+// const blacklistedWord2 = 'распродажа';
+
+// const string1 = 'Привет я принц Абдул , это не спам я маджахед ';
+// const string2 = 'Самая большая РАСПРОДАЖА лета';
+// const string3 = 'Рекламная компания #GoldGym';
+
+// console.log(string1.includes(blacklistedWord1));
+// console.log(string1.includes(blacklistedWord2));
+
+// console.log(string2.includes(blacklistedWord1));
+// const normalizedString2 = string2.toLowerCase();
+// console.log(normalizedString2.includes(blacklistedWord2));
+
+// console.log(string3.includes(blacklistedWord1));
+// console.log(string3.includes(blacklistedWord2));
+
+// !!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!
+
 //          операторы равенства и не равенства
 
 // ===  !==
 
 //            операторы и,или
 
-//    and &&    or ||     not !
+//    and &&     or ||     not !
 
 //                  && и
 
