@@ -168,12 +168,12 @@
 // !!!!!!!!!!!!
 // !!!!!!!!!!!!!
 
-const max = 10;
-const min = 0;
+// const max = 10;
+// const min = 0;
 
-const result = Math.round(Math.random() * (max - min) + min);
+// const result = Math.round(Math.random() * (max - min) + min);
 
-console.log(result);
+// console.log(result);
 
 // !!!!!!!!!!!
 // !!!!!!!!!!!
@@ -183,6 +183,27 @@ console.log(result);
 
 // !!!!!!!!!!!!!!
 // !!!!!!!!!!!!!
+
+const colors = [
+  'tomato',
+  'teal',
+  'red',
+  'blue',
+  'yellow',
+  'black',
+  'green',
+  'grey',
+];
+const max = colors.length - 1;
+const min = 0;
+
+const index = Math.round(Math.random() * (max - min) + min);
+
+const color = colors[index];
+
+console.log(color);
+
+document.body.style.backgroundColor = color;
 
 // let username;
 // console.log(typeof username); // "undefined"
