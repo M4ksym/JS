@@ -100,19 +100,12 @@
 //           Math
 
 // !!!!!!!!!
+// !!!!!!!!!!
 
 // console.log(Math.PI);
 
 // !!!!!!!!!!
-
-// const max = 80;
-// const min = 20;
-
-// const result = Math.round(Math.random() * (max - min) + min);
-
-// console.log(result);
-
-// !!!!!!!!!!!!
+// !!!!!!!!!
 
 // const base = 2;
 // const power = 9;
@@ -121,6 +114,27 @@
 
 // console.log(result);
 
+// !!!!!!!!!!!!!!!!!!!!!!!!!
+// 1!!!!!!!!!!!!!!!!!!!!!!
+
+//                 ЗАДАЧА
+
+// let base = prompt('Давай число');
+// base = Number(base);
+
+// console.log(base);
+
+// let power = prompt('Давай степень');
+// power = Number(power);
+
+// console.log(power);
+
+// let result = base ** power;
+
+// console.log(result);
+
+// !!!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!
 
 // // Math.floor(num) - повертає найбільше ціле число,
@@ -151,9 +165,24 @@
 
 //           Math
 
-// 1!!!!!!!!!!!
+// !!!!!!!!!!!!
+// !!!!!!!!!!!!!
+
+const max = 10;
+const min = 0;
+
+const result = Math.round(Math.random() * (max - min) + min);
+
+console.log(result);
+
 // !!!!!!!!!!!
 // !!!!!!!!!!!
+
+// console.log(Math.round(2.4));
+// console.log(Math.round(2.5));
+
+// !!!!!!!!!!!!!!
+// !!!!!!!!!!!!!
 
 // let username;
 // console.log(typeof username); // "undefined"

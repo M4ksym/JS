@@ -84,22 +84,22 @@
 // !!!!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!!!
 
-const profile = {
-  name: 'Jacques Gluke',
-  tag: '#jgluke',
-  location: 'Jamaica',
-  avatar: './jss/images/img.jpg',
-  stats: {
-    followers: 5603,
-    views: 4827,
-    likes: 1308,
-  },
-};
-const { name, tag, location, avatar, stats } = profile;
+// const profile = {
+//   name: 'Jacques Gluke',
+//   tag: '#jgluke',
+//   location: 'Jamaica',
+//   avatar: './jss/images/img.jpg',
+//   stats: {
+//     followers: 5603,
+//     views: 4827,
+//     likes: 1308,
+//   },
+// };
+// const { name, tag, location, avatar, stats } = profile;
 
-const { followers, views, likes } = stats;
+// const { followers, views, likes } = stats;
 
-console.log(name, tag, location, avatar, followers, views, likes);
+// console.log(name, tag, location, avatar, followers, views, likes);
 
 // !!!
 // !!!
