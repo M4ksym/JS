@@ -326,33 +326,40 @@
 // !!!!!!!!
 // !!!!!!!!!
 
-const balance = 1000;
-let message;
+// const salary = 1500;
 
-if (balance > 0) {
-  message = 'Позитивный баланс';
-} else {
-  message = 'Негативный баланс';
-}
-console.log(message);
+// if (salary <= 500) {
+//   console.log('Уровень 1');
+// } else if (salary > 500 && salary <= 1000) {
+//   console.log('Уровень 2');
+// } else console.log('Уровень 3');
+
+// !!!!!!!!!!!!
+// !!!!!!!!!!!!!
+
+// const balance = 1000;
+// let message;
+
+// if (balance > 0) {
+//   message = 'Позитивный баланс';
+// } else {
+//   message = 'Негативный баланс';
+// }
+// console.log(message);
 
 // !!!!!!!!!!!!!!
 // !!!!!!!!!!!!!
-// 1!!!!!!!!!!!!!!
 
 //                           ТЕРНАРНЫЙ ОПЕРАТОР  ? :
 
-// const balance = 1000;
+const balance = 1000;
 
-// let message = balance > 0 ? 'Позитивный баланс' : 'Негативный баланс';
+let message = balance > 0 ? 'Позитивный баланс' : 'Негативный баланс';
 
-// console.log(message);
+console.log(message);
 
 //                          ТЕРНАРНЫЙ ОПЕРАТОР
 
-// console.log(11 > 10);
-
-// !!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!
 
