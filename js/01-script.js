@@ -209,21 +209,18 @@
 
 // !!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!
 
-// let username;
-// console.log(typeof username); // "undefined"
+// const firstName = 'Volks';
+// const lastName = 'Golf';
+// const fullName = firstName + ' ' + lastName;
 
-// let inputValue = null;
-// console.log(typeof inputValue); // "object"
+// const room = 7;
+// const type = 'VIP';
 
-// const quantity = 17;
-// console.log(typeof quantity); // "number"
+// const welcomeMsg = `Гость ${fullName} поселяется в ${type} номере ${room} `;
 
-// const message = 'JavaScript is awesome!';
-// console.log(typeof message); // "string"
-
-// const isSidebarOpen = false;
-// console.log(typeof isSidebarOpen); // "boolean"
+// console.log(welcomeMsg);
 
 // !!!!!!!!
 // !!!!!!!!!
@@ -263,19 +260,15 @@
 
 // ++++++++++
 
-// let brand = 'Samsung';
-// brand = brand.toLowerCase();
-// console.log(brand);
+let brand = 'SamSung';
+brand = brand.toLowerCase();
+console.log(brand);
 
 // +++++++++++++      toUpperCase
 
 // let brand = 'Samsung';
 // brand = brand.toUpperCase();
 // console.log(brand);
-
-// +++++++++++++      toUpperCase
-
-//                  toLowerCase
 
 // !!!!!!!!!!!
 // !!!!!!!!!!!
@@ -338,3 +331,22 @@
 //                          ТЕРНАРНЫЙ ОПЕРАТОР
 
 // console.log(11 > 10);
+
+// !!!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!!
+
+// let username;
+// console.log(typeof username); // "undefined"
+
+// let inputValue = null;
+// console.log(typeof inputValue); // "object"
+
+// const quantity = 17;
+// console.log(typeof quantity); // "number"
+
+// const message = 'JavaScript is awesome!';
+// console.log(typeof message); // "string"
+
+// const isSidebarOpen = false;
+// console.log(typeof isSidebarOpen); // "boolean"
