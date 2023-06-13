@@ -184,6 +184,8 @@
 // !!!!!!!!!!!!!!
 // !!!!!!!!!!!!!
 
+//                 задача на изменение цвета фона
+
 const colors = [
   'tomato',
   'teal',
@@ -204,6 +206,9 @@ const color = colors[index];
 console.log(color);
 
 document.body.style.backgroundColor = color;
+
+// !!!!!!!!!!!!!!!!!
+// !!!!!!!!!!!!!!!!!
 
 // let username;
 // console.log(typeof username); // "undefined"
