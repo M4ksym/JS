@@ -102,37 +102,37 @@
 // !!!!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!!!
 
-const min = 4;
-const max = 10;
-let total = 0;
+// const min = 4;
+// const max = 10;
+// let total = 0;
 
-for (let i = min; i <= max; i += 1) {
-  //   console.log(i);
+// for (let i = min; i <= max; i += 1) {
+//   //   console.log(i);
 
-  if (i % 2 === 0) {
-    console.log(`четное: `, i);
-  }
-  total += i;
-}
-console.log('total :', total);
+//   if (i % 2 === 0) {
+//     console.log(`четное: `, i);
+//   }
+//   total += i;
+// }
+// console.log('total :', total);
 
 // !!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!!
 
-// let balance = 1000;
-// const payment = 200;
+let balance = 1000;
+const payment = 50;
 
-// console.log(`Общая сумма заказа ${payment}, баланс на счету`);
+console.log(`Общая сумма заказа ${payment}, баланс на счету ${balance}`);
 
-// if (balance >= payment) {
-//   console.log(`ок =)`);
+if (balance >= payment) {
+  balance -= payment;
 
-//   balance -= payment;
+  console.log(`На вашем счету осталось после покупки ${balance} кредитов`);
+} else {
+  console.log('У вас не хватает кредитов ');
+}
 
-//   console.log(`На вашем счету осталось после покупки ${balance} кредитов`);
-// } else {
-//   console.log('У вас не хватает кредитов =(');
-// }
+console.log(`Операция завершeна`);
 
 // !!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!
