@@ -119,25 +119,25 @@
 // !!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!!
 
-let balance = 1000;
-const payment = 50;
+// let balance = 1000;
+// const payment = 50;
 
-console.log(`Общая сумма заказа ${payment}, баланс на счету ${balance}`);
+// console.log(`Общая сумма заказа ${payment}, баланс на счету ${balance}`);
 
-if (balance >= payment) {
-  balance -= payment;
+// if (balance >= payment) {
+//   balance -= payment;
 
-  console.log(`На вашем счету осталось после покупки ${balance} кредитов`);
-} else {
-  console.log('У вас не хватает кредитов ');
-}
+//   console.log(`На вашем счету осталось после покупки ${balance} кредитов`);
+// } else {
+//   console.log('У вас не хватает кредитов ');
+// }
 
-console.log(`Операция завершeна`);
+// console.log(`Операция завершeна`);
 
 // !!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!
 
-// let totalSpent = 3000;
+// let totalSpent = 300;
 // let payment = 500;
 // let discount = 0;
 
