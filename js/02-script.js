@@ -157,12 +157,12 @@
 // payment -= payment * discount;
 
 // console.log(
-//   `Оформляем заказ на сумму ${payment} со скидкой ${discount * 100}%`,
+//   `Оформляем заказ на сумму  ${payment} со скидкой ${discount * 100}%`,
 // );
 
 // totalSpent += payment;
 
-// console.log(`Общая сумма потреченого в магазине ${totalSpent} `);
+// console.log(`Общая сумма потреченого в магазине : ${totalSpent} `);
 
 // 1!!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!!
