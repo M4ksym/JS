@@ -82,7 +82,7 @@
 // }
 
 // !!!!!!!!!!!!
-// 1!!!!!!!!!!!
+// !!!!!!!!!!!
 
 // const employees = 7;
 // const maxSalary = 1200;
@@ -97,24 +97,24 @@
 
 //   totalSalary += salary;
 // }
-// console.log(totalSalary);
+// console.log('Total Salary :', totalSalary);
 
 // !!!!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!!!
 
-// const min = 4;
-// const max = 10;
-// let total = 0;
+const min = 4;
+const max = 10;
+let total = 0;
 
-// for (let i = min; i <= max; i += 1) {
-//   //   console.log(i);
+for (let i = min; i <= max; i += 1) {
+  //   console.log(i);
 
-//   if (i % 2 === 0) {
-//     console.log(`четное: `, i);
-//   }
-//   total += i;
-// }
-// console.log('total :', total);
+  if (i % 2 === 0) {
+    console.log(`четное: `, i);
+  }
+  total += i;
+}
+console.log('total :', total);
 
 // !!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!!
