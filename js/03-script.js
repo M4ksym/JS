@@ -8,17 +8,22 @@
 // !!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!
 
-const a = [1, 2, 3, 4];
-const b = a;
+// const a = [1, 2, 3, 4];
+// const b = a;
 
-console.log(a);
-console.log(b);
+// console.log(a);
+// console.log(b);
+
+// a[1] = 30;
+
+// console.log(a);
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 // const friends = ['Mango', 'Kiwi', 'Poly', 'Ajax'];
 // console.table(friends);
+
 // const lastIndex = friends.length - 1;
 
 // for (let i = 0; i < friends.length; i += 1) {
@@ -32,7 +37,7 @@ console.log(b);
 // const friends = ['Mango', 'Kiwi', 'Poly', 'Ajax'];
 // for (const friend of friends) {
 // }
-// console.log(friends);
+// console.table(friends);
 
 // !!!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!!!!
@@ -50,6 +55,7 @@ console.log(b);
 
 // const cart = [54, 105, 28, 5, 89, 17, 70, 104, 43, 11, 75, 83, 99];
 // let total = 0;
+// console.log(cart);
 
 // for (const value of cart) {
 //   total += value;
@@ -68,7 +74,7 @@ console.log(b);
 
 // console.log(cart);
 
-// ++++++++++++++++++++++++++++++
+// ++++++++++++++++++++++++++++++ не работает нижний
 
 // const cart = [54, 105, 28, 5, 89, 17, 70, 104, 43, 11, 75, 83, 99, 3];
 
@@ -80,20 +86,20 @@ console.log(b);
 // !!!!!!1!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!
 
-// const numbers = [1, 2, 6, 4, 7, 99, 14];
-// let total = 0;
+const numbers = [1, 2, 6, 4, 7, 99, 14];
+let total = 0;
 
-// for (let i = 0; i < numbers.length; i += 1) {
-//   console.log(numbers[i]);
+for (let i = 0; i < numbers.length; i += 1) {
+  console.log(numbers[i]);
 
-//   if (numbers[i] % 2 === 0) {
-//     console.log('Четное');
+  if (numbers[i] % 2 === 0) {
+    console.log('Четное');
 
-//     total += numbers[i];
-//   }
-// }
+    total += numbers[i];
+  }
+}
 
-// console.log('Total:', total);
+console.log('Total:', total);
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++
 
