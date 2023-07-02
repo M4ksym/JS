@@ -86,20 +86,20 @@
 // !!!!!!1!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!
 
-const numbers = [1, 2, 6, 4, 7, 99, 14];
-let total = 0;
+// const numbers = [1, 2, 6, 4, 7, 99, 14];
+// let total = 0;
 
-for (let i = 0; i < numbers.length; i += 1) {
-  console.log(numbers[i]);
+// for (let i = 0; i < numbers.length; i += 1) {
+//   console.log(numbers[i]);
 
-  if (numbers[i] % 2 === 0) {
-    console.log('Четное');
+//   if (numbers[i] % 2 === 0) {
+//     console.log('Четное');
 
-    total += numbers[i];
-  }
-}
+//     total += numbers[i];
+//   }
+// }
 
-console.log('Total:', total);
+// console.log('Total:', total);
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -136,24 +136,18 @@ console.log('Total:', total);
 
 // +++++++++++++++++++++++++++++++++++++++++++
 
-// const logins = [
-//   'Bona',
-//   'Jack',
-//   'Bono',
-//   'Poly',
-//   'Mango',
-// ];
-// const loginToFind = 'Bono';
-// let message = `Пользователь ${loginToFind} не найден.`;
+const logins = ['Bona', 'Jack', 'Bono', 'Poly', 'Mango'];
+const loginToFind = 'Bono';
+let message = `Пользователь ${loginToFind} не найден.`;
 
-// for (const login of logins) {
-//   if (login === loginToFind) {
-//     message = `Пользователь ${loginToFind} найден`;
-//     break;
-//   }
-// }
+for (const login of logins) {
+  if (login === loginToFind) {
+    message = `Пользователь ${loginToFind} найден`;
+    break;
+  }
+}
 
-// console.log(message);
+console.log(message);
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++
 
