@@ -136,18 +136,18 @@
 
 // +++++++++++++++++++++++++++++++++++++++++++
 
-const logins = ['Bona', 'Jack', 'Bono', 'Poly', 'Mango'];
-const loginToFind = 'Bono';
-let message = `Пользователь ${loginToFind} не найден.`;
+// const logins = ['Bona', 'Jack', 'Bono', 'Poly', 'Mango'];
+// const loginToFind = 'Bono';
+// let message = `Пользователь ${loginToFind} не найден.`;
 
-for (const login of logins) {
-  if (login === loginToFind) {
-    message = `Пользователь ${loginToFind} найден`;
-    break;
-  }
-}
+// for (const login of logins) {
+//   if (login === loginToFind) {
+//     message = `Пользователь ${loginToFind} найден`;
+//     break;
+//   }
+// }
 
-console.log(message);
+// console.log(message);
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -187,10 +187,10 @@ console.log(message);
 //   string += friend + ',';
 // }
 // string = string.slice(0, string.length - 1);
+
 // console.log(string);
 
-//                             Slice
-
+// !!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!
 
 //                              Join
@@ -198,8 +198,6 @@ console.log(message);
 // const friends = ['Mango', 'Kiwi', 'Ajax', 'Bono', 'End'];
 // const string = friends.join(' ');
 // console.log(string);
-
-//                              Join
 
 // !!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!
@@ -224,8 +222,6 @@ console.log(message);
 // }
 // console.log('invertedString:', invertedString);
 
-//                              SPLIT
-
 // !!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!
 
@@ -243,8 +239,6 @@ console.log(message);
 // const slug = title.toLowerCase().split(' ').join('-');
 // console.log(slug);
 
-//                            SLUG
-
 // !!!!!!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!!!
 
@@ -259,10 +253,8 @@ console.log(message);
 // for (const number of numbers) {
 //   total += number;
 // }
-// console.table(numbers);
+// console.log(numbers);
 // console.log(total);
-
-//                           CONCAT
 
 // !!!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!!
@@ -284,7 +276,7 @@ console.log(message);
 // const index = cards.indexOf(cardToRemove);
 // console.log(index);
 
-// cards.splice(index, 1);
+// cards.splice(index, 2);
 
 // console.table(cards);
 
@@ -302,7 +294,7 @@ console.log(message);
 // console.table(cards);
 
 // const cardToInsert = 'Карточка-6';
-// const index = 5;
+// const index = 2;
 
 // cards.splice(index, 0, cardToInsert);
 
