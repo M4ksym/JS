@@ -35,19 +35,19 @@
 // !!!!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!
 
-const fnA = function () {
-  console.log('Выполняется функция А');
-};
-const fnB = function () {
-  console.log('Выполняется функция B');
-};
-const fnC = function () {
-  console.log('Выполняется функция C');
-};
+// const fnA = function () {
+//   console.log('Выполняется функция А');
+// };
+// const fnB = function () {
+//   console.log('Выполняется функция B');
+// };
+// const fnC = function () {
+//   console.log('Выполняется функция C');
+// };
 
-fnA();
-fnB();
-fnC();
+// fnA();
+// fnB();
+// fnC();
 
 // !!!!!!!!!!!!!!!!!!!
 // !!!!!!!!!!!!!!!!!!!!!
